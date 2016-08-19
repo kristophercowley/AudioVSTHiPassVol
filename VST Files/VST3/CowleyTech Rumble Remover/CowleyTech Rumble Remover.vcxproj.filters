@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\public.sdk">
+      <UniqueIdentifier>{f1519e75-3855-445c-9118-fefb433d1792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\public.sdk\common">
+      <UniqueIdentifier>{de52e9ec-fc3f-47ad-859d-922eefe502fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\public.sdk\vst">
+      <UniqueIdentifier>{a73a98ba-0970-41df-a30e-576b3efca92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pluginterfaces">
+      <UniqueIdentifier>{6cc23f7b-ee5d-484e-bcbc-0600c773dbfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pluginterfaces\base">
+      <UniqueIdentifier>{615788bd-f686-4501-8f4c-de1ccf8dc241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pluginterfaces\vst">
+      <UniqueIdentifier>{841d26f1-3a20-4ad6-8518-fddffa9160b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pluginterfaces\gui">
+      <UniqueIdentifier>{f320b0a2-ba71-4ca2-9f51-530def616786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resources">
+      <UniqueIdentifier>{163ade33-7221-4ed7-9245-fea16c36bb11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vstgui4">
+      <UniqueIdentifier>{b801b782-446f-4674-92fd-a66ea0e364a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VSTSource">
+      <UniqueIdentifier>{45b5ba03-2d89-41bf-a4c9-ff593e26da25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RAFXCore">
+      <UniqueIdentifier>{8c4503a0-22f2-4709-98d8-516ed39b77c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom Controls">
+      <UniqueIdentifier>{180e6fe0-d147-442a-a9a2-9e1f2d40eb90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\source\main\dllmain.cpp">
+      <Filter>Source Files\public.sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\main\pluginfactoryvst3.cpp">
+      <Filter>Source Files\public.sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\common\pluginview.cpp">
+      <Filter>Source Files\public.sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vst2wrapper\vst2wrapper.sdk.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstaudioeffect.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstbus.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstcomponent.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstcomponentbase.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstguieditor.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstinitiids.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstnoteexpressiontypes.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstparameters.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\vst\vstsinglecomponenteffect.cpp">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\pluginterfaces\base\conststringtable.cpp">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\pluginterfaces\base\funknown.cpp">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\pluginterfaces\base\ustring.cpp">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3editor.cpp">
+      <Filter>Source Files\vstgui4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.cpp">
+      <Filter>Source Files\vstgui4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3padcontroller.cpp">
+      <Filter>Source Files\vstgui4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\vstgui_uidescription_win32.cpp">
+      <Filter>Source Files\vstgui4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\vstgui4\vstgui\vstgui_win32.cpp">
+      <Filter>Source Files\vstgui4</Filter>
+    </ClCompile>
+    <ClCompile Include="source\factory.cpp">
+      <Filter>Source Files\VSTSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VSTProcessor.cpp">
+      <Filter>Source Files\VSTSource</Filter>
+    </ClCompile>
+    <ClCompile Include="source\plugin.cpp">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pluginobjects.cpp">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RafxPluginFactory.cpp">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SimpleHPF.cpp">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClCompile>
+    <ClCompile Include="source\KickButtonWP.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\KnobWP.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LCDController.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PadControllerWP.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PeakParameter.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LogParameter.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VoltOctaveParameter.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RackAFXMeterDetector.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SliderWP.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VST3EditorWP.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VuMeterWP.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XYPadWP.cpp">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RackAFXGUIFactory.cpp">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\source\main\pluginfactoryvst3.h">
+      <Filter>Source Files\public.sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\common\pluginview.h">
+      <Filter>Source Files\public.sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\vst\vstaudioeffect.h">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\vst\vstbus.h">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\vst\vstcomponent.h">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\vst\vstcomponentbase.h">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\vst\vstguieditor.h">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\vst\vstnoteexpressiontypes.h">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\vst\vstparameters.h">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\vst\vstsinglecomponenteffect.h">
+      <Filter>Source Files\public.sdk\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\conststringtable.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\falignpop.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\falignpush.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\fplatform.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\ftypes.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\funknown.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\ipluginbase.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\keycodes.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\base\ustring.h">
+      <Filter>Source Files\pluginterfaces\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstattributes.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstaudioprocessor.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstcomponent.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivsteditcontroller.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstevents.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivsthostapplication.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstmessage.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstmidicontrollers.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstnoteexpression.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstparameterchanges.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstplugview.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstprocesscontext.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\ivstunits.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\vstpresetkeys.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\vst\vsttypes.h">
+      <Filter>Source Files\pluginterfaces\vst</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\pluginterfaces\gui\iplugview.h">
+      <Filter>Source Files\pluginterfaces\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3editor.h">
+      <Filter>Source Files\vstgui4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3groupcontroller.h">
+      <Filter>Source Files\vstgui4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\vstgui4\vstgui\plugin-bindings\vst3padcontroller.h">
+      <Filter>Source Files\vstgui4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\version.h">
+      <Filter>Source Files\VSTSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VSTProcessor.h">
+      <Filter>Source Files\VSTSource</Filter>
+    </ClInclude>
+    <ClInclude Include="source\plugin.h">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource.h">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClInclude>
+    <ClInclude Include="source\pluginconstants.h">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SimpleHPF.h">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClInclude>
+    <ClInclude Include="source\synthfunctions.h">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SynthParamLimits.h">
+      <Filter>Source Files\RAFXCore</Filter>
+    </ClInclude>
+    <ClInclude Include="source\KickButtonWP.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\KnobWP.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LCDController.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PadControllerWP.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PeakParameter.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LogParameter.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VoltOctaveParameter.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RackAFXMeterDetector.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SliderWP.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VST3EditorWP.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VuMeterWP.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="source\XYPadWP.h">
+      <Filter>Source Files\Custom Controls</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\alphablackgearknob1.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphablackgearknob2.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphachickenhead.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphafxknob.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphagreenableton.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphaknob303.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alpham400.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphaminibrute.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphasslblue.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphasslgreen.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\alphasslred.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\amberonoff.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\assignbamber.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\background.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\blackgearknob.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\blueableton.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\bluemetal.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\chickenhead.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\darkgreyvinyl.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="data1.bin">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\fxknob.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\greenableton.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\greenmetal.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\greyableton.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\greymetal.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\groupframe.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\knob.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\knob2.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\knob303.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\knobm400.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\lightgreymetal.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\minibrute.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="MultiFilter.def">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\RackAFX.uidesc">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripamber2.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripamber3.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripamber4.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripamber5.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripamber6.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripamber7.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripamber8.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripgreen2.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripgreen3.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripgreen4.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripgreen5.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripgreen6.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripgreen7.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripgreen8.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripsilverbutton2.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripsilverbutton3.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripsilverbutton4.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripsilverbutton5.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripsilverbutton6.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripsilverbutton7.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\rbstripsilverbutton8.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\sslblue.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\sslgreen.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\sslred.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\twossamber.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\twossgreen.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vsbackground.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vsbackgroundtwo.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vsbackshort56.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vshandle.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vshandsmall56.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vstgui.uidesc">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vuledoff.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vuledoffinv.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vuledon.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\vuledoninv.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+    <None Include="resources\yellowmetal.png">
+      <Filter>Source Files\resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MultiFilter.rc">
+      <Filter>Source Files\resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
+
+

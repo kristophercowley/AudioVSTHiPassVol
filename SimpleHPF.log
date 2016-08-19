@@ -1,0 +1,7 @@
+﻿  SimpleHPF.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  RackAFXDLL.cpp
+  LINK : program database C:\Users\pc\AppData\Roaming\RackAFX\RackAFXProjects\SimpleHPF\SimpleHPF.pdb missing; performing full link
+     Creating library C:\Users\pc\AppData\Roaming\RackAFX\PlugIns\SimpleHPF.lib and object C:\Users\pc\AppData\Roaming\RackAFX\PlugIns\SimpleHPF.exp
+  SimpleHPF.vcxproj -> C:\Users\pc\AppData\Roaming\RackAFX\PlugIns\SimpleHPF.dll

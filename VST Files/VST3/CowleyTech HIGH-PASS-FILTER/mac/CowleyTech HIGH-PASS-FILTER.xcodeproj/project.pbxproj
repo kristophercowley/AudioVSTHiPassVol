@@ -1,0 +1,1868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5810B8E71083557600EBDCF2 /* vstinitiids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5810B8E61083557600EBDCF2 /* vstinitiids.cpp */; };
+		8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		C107B6161ABF180B00FA1114 /* KickButtonWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EDA1A73F0B800C09E3E /* KickButtonWP.h */; };
+		C107B6171ABF180B00FA1114 /* KnobWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EDC1A73F0B800C09E3E /* KnobWP.h */; };
+		C107B6181ABF180B00FA1114 /* LCDController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EDE1A73F0B900C09E3E /* LCDController.h */; };
+		C107B6191ABF180B00FA1114 /* PadControllerWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE01A73F0B900C09E3E /* PadControllerWP.h */; };
+		C107B61A1ABF180B00FA1114 /* PeakParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE21A73F0B900C09E3E /* PeakParameter.h */; };
+		C107B61B1ABF180B00FA1114 /* RackAFXMeterDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE41A73F0B900C09E3E /* RackAFXMeterDetector.h */; };
+		C107B61C1ABF180B00FA1114 /* SliderWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE61A73F0B900C09E3E /* SliderWP.h */; };
+		C107B61D1ABF180B00FA1114 /* VST3EditorWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE81A73F0B900C09E3E /* VST3EditorWP.h */; };
+		C107B61E1ABF180B00FA1114 /* VuMeterWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EEA1A73F0B900C09E3E /* VuMeterWP.h */; };
+		C107B61F1ABF180B00FA1114 /* XYPadWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EEC1A73F0B900C09E3E /* XYPadWP.h */; };
+		C107B6201ABF180B00FA1114 /* lookuptables.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EF71A73F0ED00C09E3E /* lookuptables.h */; };
+		C107B6211ABF180B00FA1114 /* plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EF91A73F0ED00C09E3E /* plugin.h */; };
+		C107B6221ABF180B00FA1114 /* pluginconstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EFA1A73F0ED00C09E3E /* pluginconstants.h */; };
+		C107B6231ABF180B00FA1114 /* RafxPluginFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EFD1A73F0ED00C09E3E /* RafxPluginFactory.h */; };
+		C107B6241ABF180B00FA1114 /* SimpleHPF.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EFF1A73F0ED00C09E3E /* SimpleHPF.h */; };
+		C14F1CF11B12303F0095A4B5 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = C14F1C721B12303F0095A4B5 /* resource.h */; };
+		C14F1CF21B12303F0095A4B5 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = C14F1C721B12303F0095A4B5 /* resource.h */; };
+		C107B6251ABF180B00FA1114 /* synthfunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564F001A73F0ED00C09E3E /* synthfunctions.h */; };
+		C107B6261ABF180B00FA1114 /* SynthParamLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564F011A73F0ED00C09E3E /* SynthParamLimits.h */; };
+		C107B6281ABF180B00FA1114 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564F081A73F10100C09E3E /* version.h */; };
+		C107B6291ABF180B00FA1114 /* VSTProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564F0A1A73F10100C09E3E /* VSTProcessor.h */; };
+		C107B62B1ABF180B00FA1114 /* medrubberbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F511A73F46000C09E3E /* medrubberbutton.png */; };
+		C107B62C1ABF180B00FA1114 /* rbstripsilverbutton3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F681A73F46100C09E3E /* rbstripsilverbutton3.png */; };
+		C107B62D1ABF180B00FA1114 /* yellowmetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F911A73F46100C09E3E /* yellowmetal.png */; };
+		C107B62E1ABF180B00FA1114 /* greymetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3F1A73F46000C09E3E /* greymetal.png */; };
+		C107B62F1ABF180B00FA1114 /* amberonoff.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F241A73F46000C09E3E /* amberonoff.png */; };
+		C107B6301ABF180B00FA1114 /* rbstripamber8.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5F1A73F46000C09E3E /* rbstripamber8.png */; };
+		C107B6311ABF180B00FA1114 /* chickenhead.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F341A73F46000C09E3E /* chickenhead.png */; };
+		C107B6321ABF180B00FA1114 /* rbstripamber3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5A1A73F46000C09E3E /* rbstripamber3.png */; };
+		C107B6331ABF180B00FA1114 /* bigprohphetbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2D1A73F46000C09E3E /* bigprohphetbutton.png */; };
+		C107B6341ABF180B00FA1114 /* hsbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F411A73F46000C09E3E /* hsbackground.png */; };
+		C107B6351ABF180B00FA1114 /* vshandle.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F871A73F46100C09E3E /* vshandle.png */; };
+		C107B6361ABF180B00FA1114 /* vuledoffinv.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8D1A73F46100C09E3E /* vuledoffinv.png */; };
+		C107B6371ABF180B00FA1114 /* alpham400.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F171A73F46000C09E3E /* alpham400.png */; };
+		C107B6381ABF180B00FA1114 /* groupframe.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F401A73F46000C09E3E /* groupframe.png */; };
+		C107B6391ABF180B00FA1114 /* maschine.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4C1A73F46000C09E3E /* maschine.png */; };
+		C107B63A1ABF180B00FA1114 /* alphaorangeamp.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1A1A73F46000C09E3E /* alphaorangeamp.png */; };
+		C107B63B1ABF180B00FA1114 /* chickenhead3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F361A73F46000C09E3E /* chickenhead3.png */; };
+		C107B63C1ABF180B00FA1114 /* minibrute.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F551A73F46000C09E3E /* minibrute.png */; };
+		C107B63D1ABF180B00FA1114 /* alphafxknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F141A73F46000C09E3E /* alphafxknob.png */; };
+		C107B63E1ABF180B00FA1114 /* vsbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F821A73F46100C09E3E /* vsbackground.png */; };
+		C107B63F1ABF180B00FA1114 /* tinyprophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7E1A73F46100C09E3E /* tinyprophet.png */; };
+		C107B6401ABF180B00FA1114 /* rbstripgreen4.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F621A73F46000C09E3E /* rbstripgreen4.png */; };
+		C107B6411ABF180B00FA1114 /* whitedust.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F901A73F46100C09E3E /* whitedust.png */; };
+		C107B6421ABF180B00FA1114 /* alphasslblue2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1D1A73F46000C09E3E /* alphasslblue2.png */; };
+		C107B6431ABF180B00FA1114 /* vshandleFU.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F881A73F46100C09E3E /* vshandleFU.png */; };
+		C107B6441ABF180B00FA1114 /* sslred2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7B1A73F46100C09E3E /* sslred2.png */; };
+		C107B6451ABF180B00FA1114 /* alphasslblue.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1C1A73F46000C09E3E /* alphasslblue.png */; };
+		C107B6461ABF180B00FA1114 /* alphasslred.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F201A73F46000C09E3E /* alphasslred.png */; };
+		C107B6471ABF180B00FA1114 /* smalltoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F751A73F46100C09E3E /* smalltoggleswitch.png */; };
+		C107B6481ABF180B00FA1114 /* vuledon.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8E1A73F46100C09E3E /* vuledon.png */; };
+		C107B6491ABF180B00FA1114 /* biganalogvumeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2A1A73F46000C09E3E /* biganalogvumeter.png */; };
+		C107B64A1ABF180B00FA1114 /* alphachickenhead.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F111A73F46000C09E3E /* alphachickenhead.png */; };
+		C107B64B1ABF180B00FA1114 /* sslyellow2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7D1A73F46100C09E3E /* sslyellow2.png */; };
+		C107B64C1ABF180B00FA1114 /* vsbackgroundOLD.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F831A73F46100C09E3E /* vsbackgroundOLD.png */; };
+		C107B64D1ABF180B00FA1114 /* rbstripsilverbutton6.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6B1A73F46100C09E3E /* rbstripsilverbutton6.png */; };
+		C107B64E1ABF180B00FA1114 /* hsbackS700.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F421A73F46000C09E3E /* hsbackS700.png */; };
+		C107B6501ABF180B00FA1114 /* alphasslyellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F221A73F46000C09E3E /* alphasslyellow.png */; };
+		C107B6511ABF180B00FA1114 /* twossgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F811A73F46100C09E3E /* twossgreen.png */; };
+		C107B6521ABF180B00FA1114 /* rbstripsilverbutton7.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6C1A73F46100C09E3E /* rbstripsilverbutton7.png */; };
+		C107B6531ABF180B00FA1114 /* vsbackgroundshort.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F841A73F46100C09E3E /* vsbackgroundshort.png */; };
+		C107B6541ABF180B00FA1114 /* darkgreyvinyl.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F371A73F46000C09E3E /* darkgreyvinyl.png */; };
+		C107B6551ABF180B00FA1114 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F281A73F46000C09E3E /* background.png */; };
+		C107B6561ABF180B00FA1114 /* rbstripgreen6.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F641A73F46000C09E3E /* rbstripgreen6.png */; };
+		C107B6571ABF180B00FA1114 /* alphachickenhead2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F121A73F46000C09E3E /* alphachickenhead2.png */; };
+		C107B6581ABF180B00FA1114 /* microtoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F541A73F46000C09E3E /* microtoggleswitch.png */; };
+		C107B6591ABF180B00FA1114 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F471A73F46000C09E3E /* knob.png */; };
+		C107B65A1ABF180B00FA1114 /* bigtoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2F1A73F46000C09E3E /* bigtoggleswitch.png */; };
+		C107B65B1ABF180B00FA1114 /* medprophetbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F501A73F46000C09E3E /* medprophetbutton.png */; };
+		C107B65C1ABF180B00FA1114 /* fxknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F381A73F46000C09E3E /* fxknob.png */; };
+		C107B65D1ABF180B00FA1114 /* alphaknob303.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F161A73F46000C09E3E /* alphaknob303.png */; };
+		C107B65E1ABF180B00FA1114 /* smallanalogvumeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6E1A73F46100C09E3E /* smallanalogvumeter.png */; };
+		C107B65F1ABF180B00FA1114 /* smallprophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F731A73F46100C09E3E /* smallprophet.png */; };
+		C107B6601ABF180B00FA1114 /* giantampknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F391A73F46000C09E3E /* giantampknob.png */; };
+		C107B6611ABF180B00FA1114 /* sslred.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7A1A73F46100C09E3E /* sslred.png */; };
+		C107B6621ABF180B00FA1114 /* twossamber.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F801A73F46100C09E3E /* twossamber.png */; };
+		C107B6631ABF180B00FA1114 /* medanalogvumeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4D1A73F46000C09E3E /* medanalogvumeter.png */; };
+		C107B6641ABF180B00FA1114 /* alphaampknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F0D1A73F46000C09E3E /* alphaampknob.png */; };
+		C107B6651ABF180B00FA1114 /* alphasslred2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F211A73F46000C09E3E /* alphasslred2.png */; };
+		C107B6661ABF180B00FA1114 /* rbstripamber2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F591A73F46000C09E3E /* rbstripamber2.png */; };
+		C107B6671ABF180B00FA1114 /* sslyellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7C1A73F46100C09E3E /* sslyellow.png */; };
+		C107B6681ABF180B00FA1114 /* chickenhead2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F351A73F46000C09E3E /* chickenhead2.png */; };
+		C107B6691ABF180B00FA1114 /* alphablackgearknob2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F0F1A73F46000C09E3E /* alphablackgearknob2.png */; };
+		C107B66A1ABF180B00FA1114 /* greyableton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3E1A73F46000C09E3E /* greyableton.png */; };
+		C107B66B1ABF180B00FA1114 /* smallpowerswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F711A73F46100C09E3E /* smallpowerswitch.png */; };
+		C107B66C1ABF180B00FA1114 /* alphawhitedust.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F231A73F46000C09E3E /* alphawhitedust.png */; };
+		C107B66D1ABF180B00FA1114 /* greenableton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3C1A73F46000C09E3E /* greenableton.png */; };
+		C107B66E1ABF180B00FA1114 /* medtoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F521A73F46000C09E3E /* medtoggleswitch.png */; };
+		C107B66F1ABF180B00FA1114 /* alphaminibrute.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F191A73F46000C09E3E /* alphaminibrute.png */; };
+		C107B6701ABF180B00FA1114 /* hshandsmall56.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F461A73F46000C09E3E /* hshandsmall56.png */; };
+		C107B6711ABF180B00FA1114 /* alphachickenhead3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F131A73F46000C09E3E /* alphachickenhead3.png */; };
+		C107B6721ABF180B00FA1114 /* rbstripgreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F601A73F46000C09E3E /* rbstripgreen2.png */; };
+		C107B6731ABF180B00FA1114 /* bigrubberbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2E1A73F46000C09E3E /* bigrubberbutton.png */; };
+		C107B6741ABF180B00FA1114 /* smallrubberbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F741A73F46100C09E3E /* smallrubberbutton.png */; };
+		C107B6751ABF180B00FA1114 /* sslgreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F791A73F46100C09E3E /* sslgreen2.png */; };
+		C107B6761ABF180B00FA1114 /* hshandS700.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F451A73F46000C09E3E /* hshandS700.png */; };
+		C107B6771ABF180B00FA1114 /* vsbackgroundtwo.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F851A73F46100C09E3E /* vsbackgroundtwo.png */; };
+		C107B6781ABF180B00FA1114 /* rbstripsilverbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F671A73F46100C09E3E /* rbstripsilverbutton2.png */; };
+		C107B6791ABF180B00FA1114 /* vsbackshort56.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F861A73F46100C09E3E /* vsbackshort56.png */; };
+		C107B67A1ABF180B00FA1114 /* blackplastic.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F311A73F46000C09E3E /* blackplastic.png */; };
+		C107B67B1ABF180B00FA1114 /* rbstripgreen8.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F661A73F46100C09E3E /* rbstripgreen8.png */; };
+		C107B67C1ABF180B00FA1114 /* RackAFX.uidesc in Resources */ = {isa = PBXBuildFile; fileRef = C1564F581A73F46000C09E3E /* RackAFX.uidesc */; };
+		C141BBF51B125EFF00C59940 /* knobvst.png in Resources */ = {isa = PBXBuildFile; fileRef = C141BAF51B125EFE00C59940 /* knobvst.png */; };
+		C141BBF61B125EFF00C59940 /* knobvst.png in Resources */ = {isa = PBXBuildFile; fileRef = C141BAF51B125EFE00C59940 /* knobvst.png */; };
+		C107B67D1ABF180B00FA1114 /* smalloberheimbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F701A73F46100C09E3E /* smalloberheimbutton.png */; };
+		C107B67E1ABF180B00FA1114 /* ampknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F251A73F46000C09E3E /* ampknob.png */; };
+		C107B67F1ABF180B00FA1114 /* rbstripamber6.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5D1A73F46000C09E3E /* rbstripamber6.png */; };
+		C107B6801ABF180B00FA1114 /* bluemetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F331A73F46000C09E3E /* bluemetal.png */; };
+		C107B6811ABF180B00FA1114 /* knob2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F481A73F46000C09E3E /* knob2.png */; };
+		C107B6821ABF180B00FA1114 /* orangeamp.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F561A73F46000C09E3E /* orangeamp.png */; };
+		C107B6831ABF180B00FA1114 /* tinytoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7F1A73F46100C09E3E /* tinytoggleswitch.png */; };
+		C107B6841ABF180B00FA1114 /* alphablackgearknob1.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F0E1A73F46000C09E3E /* alphablackgearknob1.png */; };
+		C107B6851ABF180B00FA1114 /* vstgui.uidesc in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8B1A73F46100C09E3E /* vstgui.uidesc */; };
+		C107B6861ABF180B00FA1114 /* hshandle.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F441A73F46000C09E3E /* hshandle.png */; };
+		C107B6871ABF180B00FA1114 /* rbstripamber5.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5C1A73F46000C09E3E /* rbstripamber5.png */; };
+		C107B6881ABF180B00FA1114 /* alphablackplastic.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F101A73F46000C09E3E /* alphablackplastic.png */; };
+		C107B6891ABF180B00FA1114 /* vuledoff.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8C1A73F46100C09E3E /* vuledoff.png */; };
+		C107B68A1ABF180B00FA1114 /* bigpowerswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2C1A73F46000C09E3E /* bigpowerswitch.png */; };
+		C107B68B1ABF180B00FA1114 /* rbstripsilverbutton5.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6A1A73F46100C09E3E /* rbstripsilverbutton5.png */; };
+		C107B68C1ABF180B00FA1114 /* blueableton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F321A73F46000C09E3E /* blueableton.png */; };
+		C107B68D1ABF180B00FA1114 /* rbstripgreen3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F611A73F46000C09E3E /* rbstripgreen3.png */; };
+		C107B68E1ABF180B00FA1114 /* rbstripgreen7.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F651A73F46100C09E3E /* rbstripgreen7.png */; };
+		C107B68F1ABF180B00FA1114 /* analogvumeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F261A73F46000C09E3E /* analogvumeter.png */; };
+		C107B6901ABF180B00FA1114 /* medoberheimbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4E1A73F46000C09E3E /* medoberheimbutton.png */; };
+		C107B6911ABF180B00FA1114 /* giantblackplastic.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3A1A73F46000C09E3E /* giantblackplastic.png */; };
+		C107B6921ABF180B00FA1114 /* sslblue.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F761A73F46100C09E3E /* sslblue.png */; };
+		C107B6931ABF180B00FA1114 /* hsbackshort56.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F431A73F46000C09E3E /* hsbackshort56.png */; };
+		C107B6941ABF180B00FA1114 /* assignbamber.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F271A73F46000C09E3E /* assignbamber.png */; };
+		C107B6951ABF180B00FA1114 /* rbstripamber4.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5B1A73F46000C09E3E /* rbstripamber4.png */; };
+		C107B6961ABF180B00FA1114 /* alphasslgreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1F1A73F46000C09E3E /* alphasslgreen2.png */; };
+		C107B6971ABF180B00FA1114 /* prophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F571A73F46000C09E3E /* prophet.png */; };
+		C107B6981ABF180B00FA1114 /* alphaprophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1B1A73F46000C09E3E /* alphaprophet.png */; };
+		C107B6991ABF180B00FA1114 /* bigoberheimbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2B1A73F46000C09E3E /* bigoberheimbutton.png */; };
+		C107B69A1ABF180B00FA1114 /* lightgreymetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4B1A73F46000C09E3E /* lightgreymetal.png */; };
+		C107B69B1ABF180B00FA1114 /* sslblue2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F771A73F46100C09E3E /* sslblue2.png */; };
+		C107B69C1ABF180B00FA1114 /* vuledoninv.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8F1A73F46100C09E3E /* vuledoninv.png */; };
+		C107B69D1ABF180B00FA1114 /* alphamaschine.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F181A73F46000C09E3E /* alphamaschine.png */; };
+		C107B69E1ABF180B00FA1114 /* rbstripgreen5.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F631A73F46000C09E3E /* rbstripgreen5.png */; };
+		C107B69F1ABF180B00FA1114 /* alphagreenableton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F151A73F46000C09E3E /* alphagreenableton.png */; };
+		C107B6A01ABF180B00FA1114 /* rbstripamber7.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5E1A73F46000C09E3E /* rbstripamber7.png */; };
+		C107B6A11ABF180B00FA1114 /* microoberheimbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F531A73F46000C09E3E /* microoberheimbutton.png */; };
+		C107B6A21ABF180B00FA1114 /* medpowerswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4F1A73F46000C09E3E /* medpowerswitch.png */; };
+		C107B6A31ABF180B00FA1114 /* bigampknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F291A73F46000C09E3E /* bigampknob.png */; };
+		C107B6A41ABF180B00FA1114 /* knobm400.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4A1A73F46000C09E3E /* knobm400.png */; };
+		C107B6A51ABF180B00FA1114 /* knob303.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F491A73F46000C09E3E /* knob303.png */; };
+		C107B6A61ABF180B00FA1114 /* rbstripsilverbutton4.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F691A73F46100C09E3E /* rbstripsilverbutton4.png */; };
+		C107B6A71ABF180B00FA1114 /* smallblackplastic.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6F1A73F46100C09E3E /* smallblackplastic.png */; };
+		C107B6A81ABF180B00FA1114 /* giantprophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3B1A73F46000C09E3E /* giantprophet.png */; };
+		C107B6A91ABF180B00FA1114 /* smallprohetbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F721A73F46100C09E3E /* smallprohetbutton.png */; };
+		C107B6AA1ABF180B00FA1114 /* blackgearknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F301A73F46000C09E3E /* blackgearknob.png */; };
+		C107B6AB1ABF180B00FA1114 /* greenmetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3D1A73F46000C09E3E /* greenmetal.png */; };
+		C107B6AC1ABF180B00FA1114 /* alphasslgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1E1A73F46000C09E3E /* alphasslgreen.png */; };
+		C107B6AD1ABF180B00FA1114 /* sslgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F781A73F46100C09E3E /* sslgreen.png */; };
+		C107B6AE1ABF180B00FA1114 /* vshandsmall56.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F891A73F46100C09E3E /* vshandsmall56.png */; };
+		C107B6AF1ABF180B00FA1114 /* rbstripsilverbutton8.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6D1A73F46100C09E3E /* rbstripsilverbutton8.png */; };
+		C107B6B11ABF180B00FA1114 /* pluginview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416981709A9DDEA0033823E /* pluginview.cpp */; };
+		C107B6B21ABF180B00FA1114 /* vstaudioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416981B09A9DE020033823E /* vstaudioeffect.cpp */; };
+		C107B6B31ABF180B00FA1114 /* PadControllerWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EDF1A73F0B900C09E3E /* PadControllerWP.cpp */; };
+		C107B6B41ABF180B00FA1114 /* vstcomponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416981D09A9DE020033823E /* vstcomponent.cpp */; };
+		C107B6B51ABF180B00FA1114 /* vstcomponentbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416981F09A9DE020033823E /* vstcomponentbase.cpp */; };
+		C107B6B61ABF180B00FA1114 /* PeakParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE11A73F0B900C09E3E /* PeakParameter.cpp */; };
+		C107B6B71ABF180B00FA1114 /* RafxPluginFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EFC1A73F0ED00C09E3E /* RafxPluginFactory.cpp */; };
+		C107B6B81ABF180B00FA1114 /* ustring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416982E09A9DE3C0033823E /* ustring.cpp */; };
+		C107B6B91ABF180B00FA1114 /* RackAFXMeterDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE31A73F0B900C09E3E /* RackAFXMeterDetector.cpp */; };
+		C107B6BA1ABF180B00FA1114 /* macmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416983F09A9DE970033823E /* macmain.cpp */; };
+		C107B6BB1ABF180B00FA1114 /* SliderWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE51A73F0B900C09E3E /* SliderWP.cpp */; };
+		C107B6BC1ABF180B00FA1114 /* SimpleHPF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EFE1A73F0ED00C09E3E /* SimpleHPF.cpp */; };
+		C107B6BD1ABF180B00FA1114 /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564F061A73F10100C09E3E /* factory.cpp */; };
+		C107B6BE1ABF180B00FA1114 /* VSTProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564F091A73F10100C09E3E /* VSTProcessor.cpp */; };
+		C107B6BF1ABF180B00FA1114 /* KickButtonWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564ED91A73F0B800C09E3E /* KickButtonWP.cpp */; };
+		C107B6C01ABF180B00FA1114 /* vstbus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F491A6EF0D90189A00759819 /* vstbus.cpp */; };
+		C107B6C11ABF180B00FA1114 /* vstparameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F491A6F10D90189A00759819 /* vstparameters.cpp */; };
+		C107B6C21ABF180B00FA1114 /* VuMeterWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE91A73F0B900C09E3E /* VuMeterWP.cpp */; };
+		C107B6C31ABF180B00FA1114 /* vst3groupcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4AF682B17B136900083D7C1 /* vst3groupcontroller.cpp */; };
+		C107B6C41ABF180B00FA1114 /* pluginfactoryvst3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49D894A1074CACE003EFE21 /* pluginfactoryvst3.cpp */; };
+		C107B6C51ABF180B00FA1114 /* KnobWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EDB1A73F0B800C09E3E /* KnobWP.cpp */; };
+		C107B6C61ABF180B00FA1114 /* vst2wrapper.sdk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C156501A1A73F7D600C09E3E /* vst2wrapper.sdk.cpp */; };
+		C107B6C71ABF180B00FA1114 /* vstinitiids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5810B8E61083557600EBDCF2 /* vstinitiids.cpp */; };
+		C107B6C81ABF180B00FA1114 /* vstgui_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = F40673CB12B0E60400BA0F64 /* vstgui_mac.mm */; };
+		C107B6C91ABF180B00FA1114 /* LCDController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EDD1A73F0B800C09E3E /* LCDController.cpp */; };
+		C107B6CA1ABF180B00FA1114 /* pluginobjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EFB1A73F0ED00C09E3E /* pluginobjects.cpp */; };
+		C107B6CB1ABF180B00FA1114 /* XYPadWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EEB1A73F0B900C09E3E /* XYPadWP.cpp */; };
+		C107B6CC1ABF180B00FA1114 /* vstgui_uidescription_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = F40673CC12B0E60400BA0F64 /* vstgui_uidescription_mac.mm */; };
+		C107B6CD1ABF180B00FA1114 /* VST3EditorWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE71A73F0B900C09E3E /* VST3EditorWP.cpp */; };
+		C107B6CE1ABF180B00FA1114 /* vst3editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F40673CF12B0E60F00BA0F64 /* vst3editor.cpp */; };
+		C107B6CF1ABF180B00FA1114 /* vstguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F40673D412B0E66000BA0F64 /* vstguieditor.cpp */; };
+		C107B6D01ABF180B00FA1114 /* vst3padcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F42D5F6C17B01CF500B85FE8 /* vst3padcontroller.cpp */; };
+		C107B6D11ABF180B00FA1114 /* vstnoteexpressiontypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44D721412C249AA00354F52 /* vstnoteexpressiontypes.cpp */; };
+		C107B6D21ABF180B00FA1114 /* vstsinglecomponenteffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C15650171A73F7C200C09E3E /* vstsinglecomponenteffect.cpp */; };
+		C107B6D31ABF180B00FA1114 /* plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EF81A73F0ED00C09E3E /* plugin.cpp */; };
+		C107B6D51ABF180B00FA1114 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F486862818241A7000CC4E30 /* QuartzCore.framework */; };
+		C107B6D61ABF180B00FA1114 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B062F51445C1D60054171D /* OpenGL.framework */; };
+		C107B6D71ABF180B00FA1114 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		C107B6D81ABF180B00FA1114 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CFAB940E8A71A20043E468 /* Cocoa.framework */; };
+		C107B6D91ABF180B00FA1114 /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C1EC1113683500091915C /* libbase.a */; };
+		C107B6DA1ABF180B00FA1114 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40673BB12B0E5CD00BA0F64 /* Accelerate.framework */; };
+		C107B6E21ABF18A000FA1114 /* CowleyTech HIGH-PASS-FILTER.vst3 in Copy Files */ = {isa = PBXBuildFile; fileRef = 8D01CCD20486CAD60068D4B7 /* CowleyTech HIGH-PASS-FILTER.vst3 */; };
+		C107B6E41ABF18B500FA1114 /* CowleyTech HIGH-PASS-FILTER.vst in CopyFiles */ = {isa = PBXBuildFile; fileRef = C107B6DF1ABF180B00FA1114 /* CowleyTech HIGH-PASS-FILTER.vst */; };
+		C14233671B7BA87500F0EBA5 /* RackAFXGUIFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C14233661B7BA87500F0EBA5 /* RackAFXGUIFactory.cpp */; };
+		C14233681B7BA87500F0EBA5 /* RackAFXGUIFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C14233661B7BA87500F0EBA5 /* RackAFXGUIFactory.cpp */; };
+		C1564EED1A73F0B900C09E3E /* KickButtonWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564ED91A73F0B800C09E3E /* KickButtonWP.cpp */; };
+		C1564EEE1A73F0B900C09E3E /* KnobWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EDB1A73F0B800C09E3E /* KnobWP.cpp */; };
+		C1564EEF1A73F0B900C09E3E /* LCDController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EDD1A73F0B800C09E3E /* LCDController.cpp */; };
+		C1564EF01A73F0B900C09E3E /* PadControllerWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EDF1A73F0B900C09E3E /* PadControllerWP.cpp */; };
+		C1564EF11A73F0B900C09E3E /* PeakParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE11A73F0B900C09E3E /* PeakParameter.cpp */; };
+		C1564EF21A73F0B900C09E3E /* RackAFXMeterDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE31A73F0B900C09E3E /* RackAFXMeterDetector.cpp */; };
+		C1564EF31A73F0B900C09E3E /* SliderWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE51A73F0B900C09E3E /* SliderWP.cpp */; };
+		C1564EF41A73F0B900C09E3E /* VST3EditorWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE71A73F0B900C09E3E /* VST3EditorWP.cpp */; };
+		C1564EF51A73F0B900C09E3E /* VuMeterWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EE91A73F0B900C09E3E /* VuMeterWP.cpp */; };
+		C1564EF61A73F0B900C09E3E /* XYPadWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EEB1A73F0B900C09E3E /* XYPadWP.cpp */; };
+		C1564F021A73F0ED00C09E3E /* plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EF81A73F0ED00C09E3E /* plugin.cpp */; };
+		C1564F031A73F0ED00C09E3E /* pluginobjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EFB1A73F0ED00C09E3E /* pluginobjects.cpp */; };
+		C1564F041A73F0ED00C09E3E /* RafxPluginFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EFC1A73F0ED00C09E3E /* RafxPluginFactory.cpp */; };
+		C1564F051A73F0ED00C09E3E /* SimpleHPF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564EFE1A73F0ED00C09E3E /* SimpleHPF.cpp */; };
+		C1564F0B1A73F10100C09E3E /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564F061A73F10100C09E3E /* factory.cpp */; };
+		C1564F0C1A73F10100C09E3E /* VSTProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1564F091A73F10100C09E3E /* VSTProcessor.cpp */; };
+		C1564F921A73F46100C09E3E /* alphaampknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F0D1A73F46000C09E3E /* alphaampknob.png */; };
+		C1564F931A73F46100C09E3E /* alphablackgearknob1.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F0E1A73F46000C09E3E /* alphablackgearknob1.png */; };
+		C1564F941A73F46100C09E3E /* alphablackgearknob2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F0F1A73F46000C09E3E /* alphablackgearknob2.png */; };
+		C1564F951A73F46100C09E3E /* alphablackplastic.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F101A73F46000C09E3E /* alphablackplastic.png */; };
+		C1564F961A73F46100C09E3E /* alphachickenhead.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F111A73F46000C09E3E /* alphachickenhead.png */; };
+		C1564F971A73F46100C09E3E /* alphachickenhead2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F121A73F46000C09E3E /* alphachickenhead2.png */; };
+		C1564F981A73F46100C09E3E /* alphachickenhead3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F131A73F46000C09E3E /* alphachickenhead3.png */; };
+		C1564F991A73F46100C09E3E /* alphafxknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F141A73F46000C09E3E /* alphafxknob.png */; };
+		C1564F9A1A73F46100C09E3E /* alphagreenableton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F151A73F46000C09E3E /* alphagreenableton.png */; };
+		C1564F9B1A73F46100C09E3E /* alphaknob303.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F161A73F46000C09E3E /* alphaknob303.png */; };
+		C1564F9C1A73F46100C09E3E /* alpham400.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F171A73F46000C09E3E /* alpham400.png */; };
+		C1564F9D1A73F46100C09E3E /* alphamaschine.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F181A73F46000C09E3E /* alphamaschine.png */; };
+		C1564F9E1A73F46100C09E3E /* alphaminibrute.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F191A73F46000C09E3E /* alphaminibrute.png */; };
+		C1564F9F1A73F46100C09E3E /* alphaorangeamp.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1A1A73F46000C09E3E /* alphaorangeamp.png */; };
+		C1564FA01A73F46100C09E3E /* alphaprophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1B1A73F46000C09E3E /* alphaprophet.png */; };
+		C1564FA11A73F46100C09E3E /* alphasslblue.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1C1A73F46000C09E3E /* alphasslblue.png */; };
+		C1564FA21A73F46100C09E3E /* alphasslblue2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1D1A73F46000C09E3E /* alphasslblue2.png */; };
+		C1564FA31A73F46100C09E3E /* alphasslgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1E1A73F46000C09E3E /* alphasslgreen.png */; };
+		C1564FA41A73F46100C09E3E /* alphasslgreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F1F1A73F46000C09E3E /* alphasslgreen2.png */; };
+		C1564FA51A73F46100C09E3E /* alphasslred.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F201A73F46000C09E3E /* alphasslred.png */; };
+		C1564FA61A73F46100C09E3E /* alphasslred2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F211A73F46000C09E3E /* alphasslred2.png */; };
+		C1564FA71A73F46100C09E3E /* alphasslyellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F221A73F46000C09E3E /* alphasslyellow.png */; };
+		C1564FA81A73F46100C09E3E /* alphawhitedust.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F231A73F46000C09E3E /* alphawhitedust.png */; };
+		C1564FA91A73F46100C09E3E /* amberonoff.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F241A73F46000C09E3E /* amberonoff.png */; };
+		C1564FAA1A73F46100C09E3E /* ampknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F251A73F46000C09E3E /* ampknob.png */; };
+		C1564FAB1A73F46100C09E3E /* analogvumeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F261A73F46000C09E3E /* analogvumeter.png */; };
+		C1564FAC1A73F46100C09E3E /* assignbamber.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F271A73F46000C09E3E /* assignbamber.png */; };
+		C1564FAD1A73F46100C09E3E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F281A73F46000C09E3E /* background.png */; };
+		C1564FAE1A73F46100C09E3E /* bigampknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F291A73F46000C09E3E /* bigampknob.png */; };
+		C1564FAF1A73F46100C09E3E /* biganalogvumeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2A1A73F46000C09E3E /* biganalogvumeter.png */; };
+		C1564FB01A73F46100C09E3E /* bigoberheimbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2B1A73F46000C09E3E /* bigoberheimbutton.png */; };
+		C1564FB11A73F46100C09E3E /* bigpowerswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2C1A73F46000C09E3E /* bigpowerswitch.png */; };
+		C1564FB21A73F46100C09E3E /* bigprohphetbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2D1A73F46000C09E3E /* bigprohphetbutton.png */; };
+		C1564FB31A73F46100C09E3E /* bigrubberbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2E1A73F46000C09E3E /* bigrubberbutton.png */; };
+		C1564FB41A73F46100C09E3E /* bigtoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F2F1A73F46000C09E3E /* bigtoggleswitch.png */; };
+		C1564FB51A73F46100C09E3E /* blackgearknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F301A73F46000C09E3E /* blackgearknob.png */; };
+		C1564FB61A73F46100C09E3E /* blackplastic.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F311A73F46000C09E3E /* blackplastic.png */; };
+		C1564FB71A73F46100C09E3E /* blueableton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F321A73F46000C09E3E /* blueableton.png */; };
+		C1564FB81A73F46100C09E3E /* bluemetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F331A73F46000C09E3E /* bluemetal.png */; };
+		C1564FB91A73F46100C09E3E /* chickenhead.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F341A73F46000C09E3E /* chickenhead.png */; };
+		C1564FBA1A73F46100C09E3E /* chickenhead2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F351A73F46000C09E3E /* chickenhead2.png */; };
+		C1564FBB1A73F46100C09E3E /* chickenhead3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F361A73F46000C09E3E /* chickenhead3.png */; };
+		C1564FBC1A73F46100C09E3E /* darkgreyvinyl.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F371A73F46000C09E3E /* darkgreyvinyl.png */; };
+		C1564FBD1A73F46100C09E3E /* fxknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F381A73F46000C09E3E /* fxknob.png */; };
+		C1564FBE1A73F46100C09E3E /* giantampknob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F391A73F46000C09E3E /* giantampknob.png */; };
+		C1564FBF1A73F46100C09E3E /* giantblackplastic.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3A1A73F46000C09E3E /* giantblackplastic.png */; };
+		C1564FC01A73F46100C09E3E /* giantprophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3B1A73F46000C09E3E /* giantprophet.png */; };
+		C1564FC11A73F46100C09E3E /* greenableton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3C1A73F46000C09E3E /* greenableton.png */; };
+		C1564FC21A73F46100C09E3E /* greenmetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3D1A73F46000C09E3E /* greenmetal.png */; };
+		C1564FC31A73F46100C09E3E /* greyableton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3E1A73F46000C09E3E /* greyableton.png */; };
+		C1564FC41A73F46100C09E3E /* greymetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F3F1A73F46000C09E3E /* greymetal.png */; };
+		C1564FC51A73F46100C09E3E /* groupframe.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F401A73F46000C09E3E /* groupframe.png */; };
+		C1564FC61A73F46100C09E3E /* hsbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F411A73F46000C09E3E /* hsbackground.png */; };
+		C1564FC71A73F46100C09E3E /* hsbackS700.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F421A73F46000C09E3E /* hsbackS700.png */; };
+		C1564FC81A73F46100C09E3E /* hsbackshort56.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F431A73F46000C09E3E /* hsbackshort56.png */; };
+		C1564FC91A73F46100C09E3E /* hshandle.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F441A73F46000C09E3E /* hshandle.png */; };
+		C1564FCA1A73F46100C09E3E /* hshandS700.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F451A73F46000C09E3E /* hshandS700.png */; };
+		C1564FCB1A73F46100C09E3E /* hshandsmall56.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F461A73F46000C09E3E /* hshandsmall56.png */; };
+		C1564FCC1A73F46100C09E3E /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F471A73F46000C09E3E /* knob.png */; };
+		C1564FCD1A73F46100C09E3E /* knob2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F481A73F46000C09E3E /* knob2.png */; };
+		C1564FCE1A73F46100C09E3E /* knob303.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F491A73F46000C09E3E /* knob303.png */; };
+		C1564FCF1A73F46100C09E3E /* knobm400.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4A1A73F46000C09E3E /* knobm400.png */; };
+		C1564FD01A73F46100C09E3E /* lightgreymetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4B1A73F46000C09E3E /* lightgreymetal.png */; };
+		C1564FD11A73F46100C09E3E /* maschine.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4C1A73F46000C09E3E /* maschine.png */; };
+		C1564FD21A73F46100C09E3E /* medanalogvumeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4D1A73F46000C09E3E /* medanalogvumeter.png */; };
+		C1564FD31A73F46100C09E3E /* medoberheimbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4E1A73F46000C09E3E /* medoberheimbutton.png */; };
+		C1564FD41A73F46100C09E3E /* medpowerswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F4F1A73F46000C09E3E /* medpowerswitch.png */; };
+		C1564FD51A73F46100C09E3E /* medprophetbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F501A73F46000C09E3E /* medprophetbutton.png */; };
+		C1564FD61A73F46100C09E3E /* medrubberbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F511A73F46000C09E3E /* medrubberbutton.png */; };
+		C1564FD71A73F46100C09E3E /* medtoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F521A73F46000C09E3E /* medtoggleswitch.png */; };
+		C1564FD81A73F46100C09E3E /* microoberheimbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F531A73F46000C09E3E /* microoberheimbutton.png */; };
+		C1564FD91A73F46100C09E3E /* microtoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F541A73F46000C09E3E /* microtoggleswitch.png */; };
+		C1564FDA1A73F46100C09E3E /* minibrute.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F551A73F46000C09E3E /* minibrute.png */; };
+		C1564FDB1A73F46100C09E3E /* orangeamp.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F561A73F46000C09E3E /* orangeamp.png */; };
+		C1564FDC1A73F46100C09E3E /* prophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F571A73F46000C09E3E /* prophet.png */; };
+		C1564FDD1A73F46100C09E3E /* RackAFX.uidesc in Resources */ = {isa = PBXBuildFile; fileRef = C1564F581A73F46000C09E3E /* RackAFX.uidesc */; };
+		C1564FDE1A73F46100C09E3E /* rbstripamber2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F591A73F46000C09E3E /* rbstripamber2.png */; };
+		C1564FDF1A73F46100C09E3E /* rbstripamber3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5A1A73F46000C09E3E /* rbstripamber3.png */; };
+		C1564FE01A73F46100C09E3E /* rbstripamber4.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5B1A73F46000C09E3E /* rbstripamber4.png */; };
+		C1564FE11A73F46100C09E3E /* rbstripamber5.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5C1A73F46000C09E3E /* rbstripamber5.png */; };
+		C1564FE21A73F46100C09E3E /* rbstripamber6.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5D1A73F46000C09E3E /* rbstripamber6.png */; };
+		C1564FE31A73F46100C09E3E /* rbstripamber7.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5E1A73F46000C09E3E /* rbstripamber7.png */; };
+		C1564FE41A73F46100C09E3E /* rbstripamber8.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F5F1A73F46000C09E3E /* rbstripamber8.png */; };
+		C1564FE51A73F46100C09E3E /* rbstripgreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F601A73F46000C09E3E /* rbstripgreen2.png */; };
+		C1564FE61A73F46100C09E3E /* rbstripgreen3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F611A73F46000C09E3E /* rbstripgreen3.png */; };
+		C1564FE71A73F46100C09E3E /* rbstripgreen4.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F621A73F46000C09E3E /* rbstripgreen4.png */; };
+		C1564FE81A73F46100C09E3E /* rbstripgreen5.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F631A73F46000C09E3E /* rbstripgreen5.png */; };
+		C1564FE91A73F46100C09E3E /* rbstripgreen6.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F641A73F46000C09E3E /* rbstripgreen6.png */; };
+		C1564FEA1A73F46100C09E3E /* rbstripgreen7.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F651A73F46100C09E3E /* rbstripgreen7.png */; };
+		C1564FEB1A73F46100C09E3E /* rbstripgreen8.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F661A73F46100C09E3E /* rbstripgreen8.png */; };
+		C1564FEC1A73F46100C09E3E /* rbstripsilverbutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F671A73F46100C09E3E /* rbstripsilverbutton2.png */; };
+		C1564FED1A73F46100C09E3E /* rbstripsilverbutton3.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F681A73F46100C09E3E /* rbstripsilverbutton3.png */; };
+		C1564FEE1A73F46100C09E3E /* rbstripsilverbutton4.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F691A73F46100C09E3E /* rbstripsilverbutton4.png */; };
+		C1564FEF1A73F46100C09E3E /* rbstripsilverbutton5.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6A1A73F46100C09E3E /* rbstripsilverbutton5.png */; };
+		C1564FF01A73F46100C09E3E /* rbstripsilverbutton6.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6B1A73F46100C09E3E /* rbstripsilverbutton6.png */; };
+		C1564FF11A73F46100C09E3E /* rbstripsilverbutton7.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6C1A73F46100C09E3E /* rbstripsilverbutton7.png */; };
+		C1564FF21A73F46100C09E3E /* rbstripsilverbutton8.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6D1A73F46100C09E3E /* rbstripsilverbutton8.png */; };
+		C1564FF31A73F46100C09E3E /* smallanalogvumeter.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6E1A73F46100C09E3E /* smallanalogvumeter.png */; };
+		C1564FF41A73F46100C09E3E /* smallblackplastic.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F6F1A73F46100C09E3E /* smallblackplastic.png */; };
+		C1564FF51A73F46100C09E3E /* smalloberheimbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F701A73F46100C09E3E /* smalloberheimbutton.png */; };
+		C1564FF61A73F46100C09E3E /* smallpowerswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F711A73F46100C09E3E /* smallpowerswitch.png */; };
+		C1564FF71A73F46100C09E3E /* smallprohetbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F721A73F46100C09E3E /* smallprohetbutton.png */; };
+		C1564FF81A73F46100C09E3E /* smallprophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F731A73F46100C09E3E /* smallprophet.png */; };
+		C1564FF91A73F46100C09E3E /* smallrubberbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F741A73F46100C09E3E /* smallrubberbutton.png */; };
+		C1564FFA1A73F46100C09E3E /* smalltoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F751A73F46100C09E3E /* smalltoggleswitch.png */; };
+		C1564FFB1A73F46100C09E3E /* sslblue.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F761A73F46100C09E3E /* sslblue.png */; };
+		C1564FFC1A73F46100C09E3E /* sslblue2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F771A73F46100C09E3E /* sslblue2.png */; };
+		C1564FFD1A73F46100C09E3E /* sslgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F781A73F46100C09E3E /* sslgreen.png */; };
+		C1564FFE1A73F46100C09E3E /* sslgreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F791A73F46100C09E3E /* sslgreen2.png */; };
+		C1564FFF1A73F46100C09E3E /* sslred.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7A1A73F46100C09E3E /* sslred.png */; };
+		C15650001A73F46100C09E3E /* sslred2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7B1A73F46100C09E3E /* sslred2.png */; };
+		C15650011A73F46100C09E3E /* sslyellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7C1A73F46100C09E3E /* sslyellow.png */; };
+		C15650021A73F46100C09E3E /* sslyellow2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7D1A73F46100C09E3E /* sslyellow2.png */; };
+		C15650031A73F46100C09E3E /* tinyprophet.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7E1A73F46100C09E3E /* tinyprophet.png */; };
+		C15650041A73F46100C09E3E /* tinytoggleswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F7F1A73F46100C09E3E /* tinytoggleswitch.png */; };
+		C15650051A73F46100C09E3E /* twossamber.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F801A73F46100C09E3E /* twossamber.png */; };
+		C15650061A73F46100C09E3E /* twossgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F811A73F46100C09E3E /* twossgreen.png */; };
+		C15650071A73F46100C09E3E /* vsbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F821A73F46100C09E3E /* vsbackground.png */; };
+		C15650081A73F46100C09E3E /* vsbackgroundOLD.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F831A73F46100C09E3E /* vsbackgroundOLD.png */; };
+		C15650091A73F46100C09E3E /* vsbackgroundshort.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F841A73F46100C09E3E /* vsbackgroundshort.png */; };
+		C156500A1A73F46100C09E3E /* vsbackgroundtwo.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F851A73F46100C09E3E /* vsbackgroundtwo.png */; };
+		C156500B1A73F46100C09E3E /* vsbackshort56.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F861A73F46100C09E3E /* vsbackshort56.png */; };
+		C156500C1A73F46100C09E3E /* vshandle.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F871A73F46100C09E3E /* vshandle.png */; };
+		C156500D1A73F46100C09E3E /* vshandleFU.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F881A73F46100C09E3E /* vshandleFU.png */; };
+		C156500E1A73F46100C09E3E /* vshandsmall56.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F891A73F46100C09E3E /* vshandsmall56.png */; };
+		C15650101A73F46100C09E3E /* vstgui.uidesc in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8B1A73F46100C09E3E /* vstgui.uidesc */; };
+		C15650111A73F46100C09E3E /* vuledoff.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8C1A73F46100C09E3E /* vuledoff.png */; };
+		C15650121A73F46100C09E3E /* vuledoffinv.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8D1A73F46100C09E3E /* vuledoffinv.png */; };
+		C15650131A73F46100C09E3E /* vuledon.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8E1A73F46100C09E3E /* vuledon.png */; };
+		C15650141A73F46100C09E3E /* vuledoninv.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F8F1A73F46100C09E3E /* vuledoninv.png */; };
+		C15650151A73F46100C09E3E /* whitedust.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F901A73F46100C09E3E /* whitedust.png */; };
+		C15650161A73F46100C09E3E /* yellowmetal.png in Resources */ = {isa = PBXBuildFile; fileRef = C1564F911A73F46100C09E3E /* yellowmetal.png */; };
+		C15650191A73F7C200C09E3E /* vstsinglecomponenteffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C15650171A73F7C200C09E3E /* vstsinglecomponenteffect.cpp */; };
+		C156501B1A73F7D600C09E3E /* vst2wrapper.sdk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C156501A1A73F7D600C09E3E /* vst2wrapper.sdk.cpp */; };
+		C156536A1A7430E000C09E3E /* KickButtonWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EDA1A73F0B800C09E3E /* KickButtonWP.h */; };
+		C156536B1A7430E000C09E3E /* KnobWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EDC1A73F0B800C09E3E /* KnobWP.h */; };
+		C156536C1A7430E000C09E3E /* LCDController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EDE1A73F0B900C09E3E /* LCDController.h */; };
+		C156536D1A7430E000C09E3E /* PadControllerWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE01A73F0B900C09E3E /* PadControllerWP.h */; };
+		C156536E1A7430E000C09E3E /* PeakParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE21A73F0B900C09E3E /* PeakParameter.h */; };
+		C156536F1A7430E000C09E3E /* RackAFXMeterDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE41A73F0B900C09E3E /* RackAFXMeterDetector.h */; };
+		C15653701A7430E000C09E3E /* SliderWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE61A73F0B900C09E3E /* SliderWP.h */; };
+		C15653711A7430E000C09E3E /* VST3EditorWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EE81A73F0B900C09E3E /* VST3EditorWP.h */; };
+		C15653721A7430E000C09E3E /* VuMeterWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EEA1A73F0B900C09E3E /* VuMeterWP.h */; };
+		C15653731A7430E000C09E3E /* XYPadWP.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EEC1A73F0B900C09E3E /* XYPadWP.h */; };
+		C15653741A7430E000C09E3E /* lookuptables.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EF71A73F0ED00C09E3E /* lookuptables.h */; };
+		C15653751A7430E000C09E3E /* plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EF91A73F0ED00C09E3E /* plugin.h */; };
+		C15653761A7430E000C09E3E /* pluginconstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EFA1A73F0ED00C09E3E /* pluginconstants.h */; };
+		C15653771A7430E000C09E3E /* RafxPluginFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EFD1A73F0ED00C09E3E /* RafxPluginFactory.h */; };
+		C15653781A7430E000C09E3E /* SimpleHPF.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564EFF1A73F0ED00C09E3E /* SimpleHPF.h */; };
+		C15653791A7430E000C09E3E /* synthfunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564F001A73F0ED00C09E3E /* synthfunctions.h */; };
+		C156537A1A7430E000C09E3E /* SynthParamLimits.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564F011A73F0ED00C09E3E /* SynthParamLimits.h */; };
+		C156537C1A7430E100C09E3E /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564F081A73F10100C09E3E /* version.h */; };
+		C156537D1A7430E100C09E3E /* VSTProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = C1564F0A1A73F10100C09E3E /* VSTProcessor.h */; };
+		C19725BE1B11125E00798F61 /* LogParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19725BA1B11125E00798F61 /* LogParameter.cpp */; };
+		C19725BF1B11125E00798F61 /* LogParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = C19725BB1B11125E00798F61 /* LogParameter.h */; };
+		C19725C01B11125E00798F61 /* VoltOctaveParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19725BC1B11125E00798F61 /* VoltOctaveParameter.cpp */; };
+		C19725C11B11125E00798F61 /* VoltOctaveParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = C19725BD1B11125E00798F61 /* VoltOctaveParameter.h */; };
+		C19725C21B1114BB00798F61 /* LogParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19725BA1B11125E00798F61 /* LogParameter.cpp */; };
+		C19725C31B1114BD00798F61 /* LogParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = C19725BB1B11125E00798F61 /* LogParameter.h */; };
+		C19725C41B1114C300798F61 /* VoltOctaveParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C19725BC1B11125E00798F61 /* VoltOctaveParameter.cpp */; };
+		C19725C51B1114C600798F61 /* VoltOctaveParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = C19725BD1B11125E00798F61 /* VoltOctaveParameter.h */; };
+		C1E48C6F1B4869D500A083F0 /* horizswitchsynth.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C691B4869D500A083F0 /* horizswitchsynth.png */; };
+		C1E48C701B4869D500A083F0 /* vertswitchfilters.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6A1B4869D500A083F0 /* vertswitchfilters.png */; };
+		C1E48C711B4869D500A083F0 /* horizvuledoninv.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6B1B4869D500A083F0 /* horizvuledoninv.png */; };
+		C1E48C721B4869D500A083F0 /* horizvuledoffinv.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6C1B4869D500A083F0 /* horizvuledoffinv.png */; };
+		C1E48C731B4869D500A083F0 /* horizvuledon.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6D1B4869D500A083F0 /* horizvuledon.png */; };
+		C1E48C741B4869D500A083F0 /* horizvuledoff.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6E1B4869D500A083F0 /* horizvuledoff.png */; };
+		C1E48C781B486A0400A083F0 /* horizswitchsynth.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C691B4869D500A083F0 /* horizswitchsynth.png */; };
+		C1E48C791B486A0400A083F0 /* vertswitchfilters.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6A1B4869D500A083F0 /* vertswitchfilters.png */; };
+		C1E48C7A1B486A0400A083F0 /* horizvuledoninv.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6B1B4869D500A083F0 /* horizvuledoninv.png */; };
+		C1E48C7B1B486A0400A083F0 /* horizvuledoffinv.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6C1B4869D500A083F0 /* horizvuledoffinv.png */; };
+		C1E48C7C1B486A0400A083F0 /* horizvuledon.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6D1B4869D500A083F0 /* horizvuledon.png */; };
+		C1E48C7D1B486A0400A083F0 /* horizvuledoff.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E48C6E1B4869D500A083F0 /* horizvuledoff.png */; };
+		F40673BC12B0E5CD00BA0F64 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40673BB12B0E5CD00BA0F64 /* Accelerate.framework */; };
+		F40673CD12B0E60400BA0F64 /* vstgui_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = F40673CB12B0E60400BA0F64 /* vstgui_mac.mm */; };
+		F40673CE12B0E60400BA0F64 /* vstgui_uidescription_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = F40673CC12B0E60400BA0F64 /* vstgui_uidescription_mac.mm */; };
+		F40673D112B0E60F00BA0F64 /* vst3editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F40673CF12B0E60F00BA0F64 /* vst3editor.cpp */; };
+		F40673D612B0E66000BA0F64 /* vstguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F40673D412B0E66000BA0F64 /* vstguieditor.cpp */; };
+		F416981A09A9DDEA0033823E /* pluginview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416981709A9DDEA0033823E /* pluginview.cpp */; };
+		F416982309A9DE020033823E /* vstaudioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416981B09A9DE020033823E /* vstaudioeffect.cpp */; };
+		F416982409A9DE020033823E /* vstcomponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416981D09A9DE020033823E /* vstcomponent.cpp */; };
+		F416982509A9DE020033823E /* vstcomponentbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416981F09A9DE020033823E /* vstcomponentbase.cpp */; };
+		F416983109A9DE3C0033823E /* ustring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416982E09A9DE3C0033823E /* ustring.cpp */; };
+		F416984209A9DE970033823E /* macmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F416983F09A9DE970033823E /* macmain.cpp */; };
+		F42D5F6E17B01CF500B85FE8 /* vst3padcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F42D5F6C17B01CF500B85FE8 /* vst3padcontroller.cpp */; };
+		F44D721512C249AA00354F52 /* vstnoteexpressiontypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F44D721412C249AA00354F52 /* vstnoteexpressiontypes.cpp */; };
+		F486862918241A7000CC4E30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F486862818241A7000CC4E30 /* QuartzCore.framework */; };
+		F48C1EC2113683520091915C /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F48C1EC1113683500091915C /* libbase.a */; };
+		F491A6F30D90189A00759819 /* vstbus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F491A6EF0D90189A00759819 /* vstbus.cpp */; };
+		F491A6F40D90189A00759819 /* vstparameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F491A6F10D90189A00759819 /* vstparameters.cpp */; };
+		F49D894C1074CACF003EFE21 /* pluginfactoryvst3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49D894A1074CACE003EFE21 /* pluginfactoryvst3.cpp */; };
+		F4AF682D17B136900083D7C1 /* vst3groupcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4AF682B17B136900083D7C1 /* vst3groupcontroller.cpp */; };
+		F4B062F61445C1D60054171D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B062F51445C1D60054171D /* OpenGL.framework */; };
+		F4CFAB950E8A71A20043E468 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CFAB940E8A71A20043E468 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C107B6141ABF180B00FA1114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48C1EB9113683500091915C /* base.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = base;
+		};
+		F486862D18241A7000CC4E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48C1EB9113683500091915C /* base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4306DEB17DDC8800075E8C4;
+			remoteInfo = "base_libc++";
+		};
+		F486862F18241A7000CC4E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48C1EB9113683500091915C /* base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4128A5417EB4B0B00114E59;
+			remoteInfo = base_ios;
+		};
+		F48C1EC0113683500091915C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48C1EB9113683500091915C /* base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = base;
+		};
+		F48C1EC3113683600091915C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48C1EB9113683500091915C /* base.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC045055464E500DB518D;
+			remoteInfo = base;
+		};
+		F49C196E156E763500AD946F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48C1EB9113683500091915C /* base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F412026A14C41F68008F9C84;
+			remoteInfo = base_codecoverage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C107B6E11ABF189200FA1114 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Audio/Plug-Ins/VST3";
+			dstSubfolderSpec = 0;
+			files = (
+				C107B6E21ABF18A000FA1114 /* CowleyTech HIGH-PASS-FILTER.vst3 in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107B6E31ABF18AC00FA1114 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Audio/Plug-Ins/VST";
+			dstSubfolderSpec = 0;
+			files = (
+				C107B6E41ABF18B500FA1114 /* CowleyTech HIGH-PASS-FILTER.vst in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		5810B8E61083557600EBDCF2 /* vstinitiids.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstinitiids.cpp; path = ../../../../../source/vst/vstinitiids.cpp; sourceTree = SOURCE_ROOT; };
+		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+		8D01CCD20486CAD60068D4B7 /* CowleyTech HIGH-PASS-FILTER.vst3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CowleyTech HIGH-PASS-FILTER.vst3; sourceTree = BUILT_PRODUCTS_DIR; };
+		C107B6DF1ABF180B00FA1114 /* CowleyTech HIGH-PASS-FILTER.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CowleyTech HIGH-PASS-FILTER.vst; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14233661B7BA87500F0EBA5 /* RackAFXGUIFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RackAFXGUIFactory.cpp; path = ../source/RackAFXGUIFactory.cpp; sourceTree = "<group>"; };
+		C1564ED91A73F0B800C09E3E /* KickButtonWP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KickButtonWP.cpp; path = ../source/KickButtonWP.cpp; sourceTree = "<group>"; };
+		C1564EDA1A73F0B800C09E3E /* KickButtonWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KickButtonWP.h; path = ../source/KickButtonWP.h; sourceTree = "<group>"; };
+		C1564EDB1A73F0B800C09E3E /* KnobWP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KnobWP.cpp; path = ../source/KnobWP.cpp; sourceTree = "<group>"; };
+		C1564EDC1A73F0B800C09E3E /* KnobWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KnobWP.h; path = ../source/KnobWP.h; sourceTree = "<group>"; };
+		C1564EDD1A73F0B800C09E3E /* LCDController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LCDController.cpp; path = ../source/LCDController.cpp; sourceTree = "<group>"; };
+		C1564EDE1A73F0B900C09E3E /* LCDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LCDController.h; path = ../source/LCDController.h; sourceTree = "<group>"; };
+		C1564EDF1A73F0B900C09E3E /* PadControllerWP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PadControllerWP.cpp; path = ../source/PadControllerWP.cpp; sourceTree = "<group>"; };
+		C1564EE01A73F0B900C09E3E /* PadControllerWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PadControllerWP.h; path = ../source/PadControllerWP.h; sourceTree = "<group>"; };
+		C1564EE11A73F0B900C09E3E /* PeakParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PeakParameter.cpp; path = ../source/PeakParameter.cpp; sourceTree = "<group>"; };
+		C1564EE21A73F0B900C09E3E /* PeakParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeakParameter.h; path = ../source/PeakParameter.h; sourceTree = "<group>"; };
+		C1564EE31A73F0B900C09E3E /* RackAFXMeterDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RackAFXMeterDetector.cpp; path = ../source/RackAFXMeterDetector.cpp; sourceTree = "<group>"; };
+		C1564EE41A73F0B900C09E3E /* RackAFXMeterDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RackAFXMeterDetector.h; path = ../source/RackAFXMeterDetector.h; sourceTree = "<group>"; };
+		C1564EE51A73F0B900C09E3E /* SliderWP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SliderWP.cpp; path = ../source/SliderWP.cpp; sourceTree = "<group>"; };
+		C1564EE61A73F0B900C09E3E /* SliderWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SliderWP.h; path = ../source/SliderWP.h; sourceTree = "<group>"; };
+		C1564EE71A73F0B900C09E3E /* VST3EditorWP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VST3EditorWP.cpp; path = ../source/VST3EditorWP.cpp; sourceTree = "<group>"; };
+		C1564EE81A73F0B900C09E3E /* VST3EditorWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VST3EditorWP.h; path = ../source/VST3EditorWP.h; sourceTree = "<group>"; };
+		C1564EE91A73F0B900C09E3E /* VuMeterWP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VuMeterWP.cpp; path = ../source/VuMeterWP.cpp; sourceTree = "<group>"; };
+		C1564EEA1A73F0B900C09E3E /* VuMeterWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VuMeterWP.h; path = ../source/VuMeterWP.h; sourceTree = "<group>"; };
+		C1564EEB1A73F0B900C09E3E /* XYPadWP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XYPadWP.cpp; path = ../source/XYPadWP.cpp; sourceTree = "<group>"; };
+		C1564EEC1A73F0B900C09E3E /* XYPadWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYPadWP.h; path = ../source/XYPadWP.h; sourceTree = "<group>"; };
+		C1564EF71A73F0ED00C09E3E /* lookuptables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lookuptables.h; path = ../source/lookuptables.h; sourceTree = "<group>"; };
+		C1564EF81A73F0ED00C09E3E /* plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin.cpp; path = ../source/plugin.cpp; sourceTree = "<group>"; };
+		C1564EF91A73F0ED00C09E3E /* plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = plugin.h; path = ../source/plugin.h; sourceTree = "<group>"; };
+		C1564EFA1A73F0ED00C09E3E /* pluginconstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pluginconstants.h; path = ../source/pluginconstants.h; sourceTree = "<group>"; };
+		C1564EFB1A73F0ED00C09E3E /* pluginobjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginobjects.cpp; path = ../source/pluginobjects.cpp; sourceTree = "<group>"; };
+		C1564EFC1A73F0ED00C09E3E /* RafxPluginFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RafxPluginFactory.cpp; path = ../source/RafxPluginFactory.cpp; sourceTree = "<group>"; };
+		C1564EFD1A73F0ED00C09E3E /* RafxPluginFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RafxPluginFactory.h; path = ../source/RafxPluginFactory.h; sourceTree = "<group>"; };
+		C1564EFE1A73F0ED00C09E3E /* SimpleHPF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleHPF.cpp; path = ../source/SimpleHPF.cpp; sourceTree = "<group>"; };
+		C1564EFF1A73F0ED00C09E3E /* SimpleHPF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleHPF.h; path = ../source/SimpleHPF.h; sourceTree = "<group>"; };
+		C14F1C721B12303F0095A4B5 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../source/resource.h; sourceTree = "<group>"; };
+		C1564F001A73F0ED00C09E3E /* synthfunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = synthfunctions.h; path = ../source/synthfunctions.h; sourceTree = "<group>"; };
+		C1564F011A73F0ED00C09E3E /* SynthParamLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthParamLimits.h; path = ../source/SynthParamLimits.h; sourceTree = "<group>"; };
+		C1564F061A73F10100C09E3E /* factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = factory.cpp; path = ../source/factory.cpp; sourceTree = "<group>"; };
+		C1564F081A73F10100C09E3E /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../source/version.h; sourceTree = "<group>"; };
+		C1564F091A73F10100C09E3E /* VSTProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VSTProcessor.cpp; path = ../source/VSTProcessor.cpp; sourceTree = "<group>"; };
+		C1564F0A1A73F10100C09E3E /* VSTProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSTProcessor.h; path = ../source/VSTProcessor.h; sourceTree = "<group>"; };
+		C1564F0D1A73F46000C09E3E /* alphaampknob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphaampknob.png; path = ../resources/alphaampknob.png; sourceTree = "<group>"; };
+		C1564F0E1A73F46000C09E3E /* alphablackgearknob1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphablackgearknob1.png; path = ../resources/alphablackgearknob1.png; sourceTree = "<group>"; };
+		C1564F0F1A73F46000C09E3E /* alphablackgearknob2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphablackgearknob2.png; path = ../resources/alphablackgearknob2.png; sourceTree = "<group>"; };
+		C1564F101A73F46000C09E3E /* alphablackplastic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphablackplastic.png; path = ../resources/alphablackplastic.png; sourceTree = "<group>"; };
+		C1564F111A73F46000C09E3E /* alphachickenhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphachickenhead.png; path = ../resources/alphachickenhead.png; sourceTree = "<group>"; };
+		C1564F121A73F46000C09E3E /* alphachickenhead2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphachickenhead2.png; path = ../resources/alphachickenhead2.png; sourceTree = "<group>"; };
+		C1564F131A73F46000C09E3E /* alphachickenhead3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphachickenhead3.png; path = ../resources/alphachickenhead3.png; sourceTree = "<group>"; };
+		C1564F141A73F46000C09E3E /* alphafxknob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphafxknob.png; path = ../resources/alphafxknob.png; sourceTree = "<group>"; };
+		C1564F151A73F46000C09E3E /* alphagreenableton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphagreenableton.png; path = ../resources/alphagreenableton.png; sourceTree = "<group>"; };
+		C1564F161A73F46000C09E3E /* alphaknob303.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphaknob303.png; path = ../resources/alphaknob303.png; sourceTree = "<group>"; };
+		C1564F171A73F46000C09E3E /* alpham400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alpham400.png; path = ../resources/alpham400.png; sourceTree = "<group>"; };
+		C1564F181A73F46000C09E3E /* alphamaschine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphamaschine.png; path = ../resources/alphamaschine.png; sourceTree = "<group>"; };
+		C1564F191A73F46000C09E3E /* alphaminibrute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphaminibrute.png; path = ../resources/alphaminibrute.png; sourceTree = "<group>"; };
+		C1564F1A1A73F46000C09E3E /* alphaorangeamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphaorangeamp.png; path = ../resources/alphaorangeamp.png; sourceTree = "<group>"; };
+		C1564F1B1A73F46000C09E3E /* alphaprophet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphaprophet.png; path = ../resources/alphaprophet.png; sourceTree = "<group>"; };
+		C1564F1C1A73F46000C09E3E /* alphasslblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphasslblue.png; path = ../resources/alphasslblue.png; sourceTree = "<group>"; };
+		C1564F1D1A73F46000C09E3E /* alphasslblue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphasslblue2.png; path = ../resources/alphasslblue2.png; sourceTree = "<group>"; };
+		C1564F1E1A73F46000C09E3E /* alphasslgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphasslgreen.png; path = ../resources/alphasslgreen.png; sourceTree = "<group>"; };
+		C1564F1F1A73F46000C09E3E /* alphasslgreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphasslgreen2.png; path = ../resources/alphasslgreen2.png; sourceTree = "<group>"; };
+		C1564F201A73F46000C09E3E /* alphasslred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphasslred.png; path = ../resources/alphasslred.png; sourceTree = "<group>"; };
+		C1564F211A73F46000C09E3E /* alphasslred2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphasslred2.png; path = ../resources/alphasslred2.png; sourceTree = "<group>"; };
+		C1564F221A73F46000C09E3E /* alphasslyellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphasslyellow.png; path = ../resources/alphasslyellow.png; sourceTree = "<group>"; };
+		C1564F231A73F46000C09E3E /* alphawhitedust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alphawhitedust.png; path = ../resources/alphawhitedust.png; sourceTree = "<group>"; };
+		C1564F241A73F46000C09E3E /* amberonoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amberonoff.png; path = ../resources/amberonoff.png; sourceTree = "<group>"; };
+		C1564F251A73F46000C09E3E /* ampknob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ampknob.png; path = ../resources/ampknob.png; sourceTree = "<group>"; };
+		C1564F261A73F46000C09E3E /* analogvumeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = analogvumeter.png; path = ../resources/analogvumeter.png; sourceTree = "<group>"; };
+		C1564F271A73F46000C09E3E /* assignbamber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = assignbamber.png; path = ../resources/assignbamber.png; sourceTree = "<group>"; };
+		C1564F281A73F46000C09E3E /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../resources/background.png; sourceTree = "<group>"; };
+		C1564F291A73F46000C09E3E /* bigampknob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigampknob.png; path = ../resources/bigampknob.png; sourceTree = "<group>"; };
+		C1564F2A1A73F46000C09E3E /* biganalogvumeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = biganalogvumeter.png; path = ../resources/biganalogvumeter.png; sourceTree = "<group>"; };
+		C1564F2B1A73F46000C09E3E /* bigoberheimbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigoberheimbutton.png; path = ../resources/bigoberheimbutton.png; sourceTree = "<group>"; };
+		C1564F2C1A73F46000C09E3E /* bigpowerswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigpowerswitch.png; path = ../resources/bigpowerswitch.png; sourceTree = "<group>"; };
+		C1564F2D1A73F46000C09E3E /* bigprohphetbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigprohphetbutton.png; path = ../resources/bigprohphetbutton.png; sourceTree = "<group>"; };
+		C1564F2E1A73F46000C09E3E /* bigrubberbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigrubberbutton.png; path = ../resources/bigrubberbutton.png; sourceTree = "<group>"; };
+		C1564F2F1A73F46000C09E3E /* bigtoggleswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigtoggleswitch.png; path = ../resources/bigtoggleswitch.png; sourceTree = "<group>"; };
+		C1564F301A73F46000C09E3E /* blackgearknob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackgearknob.png; path = ../resources/blackgearknob.png; sourceTree = "<group>"; };
+		C1564F311A73F46000C09E3E /* blackplastic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackplastic.png; path = ../resources/blackplastic.png; sourceTree = "<group>"; };
+		C1564F321A73F46000C09E3E /* blueableton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueableton.png; path = ../resources/blueableton.png; sourceTree = "<group>"; };
+		C1564F331A73F46000C09E3E /* bluemetal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluemetal.png; path = ../resources/bluemetal.png; sourceTree = "<group>"; };
+		C1564F341A73F46000C09E3E /* chickenhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chickenhead.png; path = ../resources/chickenhead.png; sourceTree = "<group>"; };
+		C1564F351A73F46000C09E3E /* chickenhead2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chickenhead2.png; path = ../resources/chickenhead2.png; sourceTree = "<group>"; };
+		C1564F361A73F46000C09E3E /* chickenhead3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chickenhead3.png; path = ../resources/chickenhead3.png; sourceTree = "<group>"; };
+		C1564F371A73F46000C09E3E /* darkgreyvinyl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = darkgreyvinyl.png; path = ../resources/darkgreyvinyl.png; sourceTree = "<group>"; };
+		C1564F381A73F46000C09E3E /* fxknob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fxknob.png; path = ../resources/fxknob.png; sourceTree = "<group>"; };
+		C1564F391A73F46000C09E3E /* giantampknob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = giantampknob.png; path = ../resources/giantampknob.png; sourceTree = "<group>"; };
+		C1564F3A1A73F46000C09E3E /* giantblackplastic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = giantblackplastic.png; path = ../resources/giantblackplastic.png; sourceTree = "<group>"; };
+		C1564F3B1A73F46000C09E3E /* giantprophet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = giantprophet.png; path = ../resources/giantprophet.png; sourceTree = "<group>"; };
+		C1564F3C1A73F46000C09E3E /* greenableton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenableton.png; path = ../resources/greenableton.png; sourceTree = "<group>"; };
+		C1564F3D1A73F46000C09E3E /* greenmetal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenmetal.png; path = ../resources/greenmetal.png; sourceTree = "<group>"; };
+		C1564F3E1A73F46000C09E3E /* greyableton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greyableton.png; path = ../resources/greyableton.png; sourceTree = "<group>"; };
+		C1564F3F1A73F46000C09E3E /* greymetal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greymetal.png; path = ../resources/greymetal.png; sourceTree = "<group>"; };
+		C1564F401A73F46000C09E3E /* groupframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = groupframe.png; path = ../resources/groupframe.png; sourceTree = "<group>"; };
+		C1564F411A73F46000C09E3E /* hsbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hsbackground.png; path = ../resources/hsbackground.png; sourceTree = "<group>"; };
+		C1564F421A73F46000C09E3E /* hsbackS700.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hsbackS700.png; path = ../resources/hsbackS700.png; sourceTree = "<group>"; };
+		C1564F431A73F46000C09E3E /* hsbackshort56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hsbackshort56.png; path = ../resources/hsbackshort56.png; sourceTree = "<group>"; };
+		C1564F441A73F46000C09E3E /* hshandle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hshandle.png; path = ../resources/hshandle.png; sourceTree = "<group>"; };
+		C1564F451A73F46000C09E3E /* hshandS700.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hshandS700.png; path = ../resources/hshandS700.png; sourceTree = "<group>"; };
+		C1564F461A73F46000C09E3E /* hshandsmall56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hshandsmall56.png; path = ../resources/hshandsmall56.png; sourceTree = "<group>"; };
+		C1564F471A73F46000C09E3E /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob.png; path = ../resources/knob.png; sourceTree = "<group>"; };
+		C1564F481A73F46000C09E3E /* knob2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob2.png; path = ../resources/knob2.png; sourceTree = "<group>"; };
+		C1564F491A73F46000C09E3E /* knob303.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knob303.png; path = ../resources/knob303.png; sourceTree = "<group>"; };
+		C1564F4A1A73F46000C09E3E /* knobm400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knobm400.png; path = ../resources/knobm400.png; sourceTree = "<group>"; };
+		C1564F4B1A73F46000C09E3E /* lightgreymetal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightgreymetal.png; path = ../resources/lightgreymetal.png; sourceTree = "<group>"; };
+		C1564F4C1A73F46000C09E3E /* maschine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maschine.png; path = ../resources/maschine.png; sourceTree = "<group>"; };
+		C1564F4D1A73F46000C09E3E /* medanalogvumeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medanalogvumeter.png; path = ../resources/medanalogvumeter.png; sourceTree = "<group>"; };
+		C1564F4E1A73F46000C09E3E /* medoberheimbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medoberheimbutton.png; path = ../resources/medoberheimbutton.png; sourceTree = "<group>"; };
+		C1564F4F1A73F46000C09E3E /* medpowerswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medpowerswitch.png; path = ../resources/medpowerswitch.png; sourceTree = "<group>"; };
+		C1564F501A73F46000C09E3E /* medprophetbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medprophetbutton.png; path = ../resources/medprophetbutton.png; sourceTree = "<group>"; };
+		C1564F511A73F46000C09E3E /* medrubberbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medrubberbutton.png; path = ../resources/medrubberbutton.png; sourceTree = "<group>"; };
+		C1564F521A73F46000C09E3E /* medtoggleswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = medtoggleswitch.png; path = ../resources/medtoggleswitch.png; sourceTree = "<group>"; };
+		C1564F531A73F46000C09E3E /* microoberheimbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = microoberheimbutton.png; path = ../resources/microoberheimbutton.png; sourceTree = "<group>"; };
+		C1564F541A73F46000C09E3E /* microtoggleswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = microtoggleswitch.png; path = ../resources/microtoggleswitch.png; sourceTree = "<group>"; };
+		C1564F551A73F46000C09E3E /* minibrute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minibrute.png; path = ../resources/minibrute.png; sourceTree = "<group>"; };
+		C1564F561A73F46000C09E3E /* orangeamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orangeamp.png; path = ../resources/orangeamp.png; sourceTree = "<group>"; };
+		C1564F571A73F46000C09E3E /* prophet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prophet.png; path = ../resources/prophet.png; sourceTree = "<group>"; };
+		C1564F581A73F46000C09E3E /* RackAFX.uidesc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = RackAFX.uidesc; path = ../resources/RackAFX.uidesc; sourceTree = "<group>"; };
+		C141BAF51B125EFE00C59940 /* knobvst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knobvst.png; path = ../resources/knobvst.png; sourceTree = "<group>"; };
+		C1564F591A73F46000C09E3E /* rbstripamber2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripamber2.png; path = ../resources/rbstripamber2.png; sourceTree = "<group>"; };
+		C1564F5A1A73F46000C09E3E /* rbstripamber3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripamber3.png; path = ../resources/rbstripamber3.png; sourceTree = "<group>"; };
+		C1564F5B1A73F46000C09E3E /* rbstripamber4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripamber4.png; path = ../resources/rbstripamber4.png; sourceTree = "<group>"; };
+		C1564F5C1A73F46000C09E3E /* rbstripamber5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripamber5.png; path = ../resources/rbstripamber5.png; sourceTree = "<group>"; };
+		C1564F5D1A73F46000C09E3E /* rbstripamber6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripamber6.png; path = ../resources/rbstripamber6.png; sourceTree = "<group>"; };
+		C1564F5E1A73F46000C09E3E /* rbstripamber7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripamber7.png; path = ../resources/rbstripamber7.png; sourceTree = "<group>"; };
+		C1564F5F1A73F46000C09E3E /* rbstripamber8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripamber8.png; path = ../resources/rbstripamber8.png; sourceTree = "<group>"; };
+		C1564F601A73F46000C09E3E /* rbstripgreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripgreen2.png; path = ../resources/rbstripgreen2.png; sourceTree = "<group>"; };
+		C1564F611A73F46000C09E3E /* rbstripgreen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripgreen3.png; path = ../resources/rbstripgreen3.png; sourceTree = "<group>"; };
+		C1564F621A73F46000C09E3E /* rbstripgreen4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripgreen4.png; path = ../resources/rbstripgreen4.png; sourceTree = "<group>"; };
+		C1564F631A73F46000C09E3E /* rbstripgreen5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripgreen5.png; path = ../resources/rbstripgreen5.png; sourceTree = "<group>"; };
+		C1564F641A73F46000C09E3E /* rbstripgreen6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripgreen6.png; path = ../resources/rbstripgreen6.png; sourceTree = "<group>"; };
+		C1564F651A73F46100C09E3E /* rbstripgreen7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripgreen7.png; path = ../resources/rbstripgreen7.png; sourceTree = "<group>"; };
+		C1564F661A73F46100C09E3E /* rbstripgreen8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripgreen8.png; path = ../resources/rbstripgreen8.png; sourceTree = "<group>"; };
+		C1564F671A73F46100C09E3E /* rbstripsilverbutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripsilverbutton2.png; path = ../resources/rbstripsilverbutton2.png; sourceTree = "<group>"; };
+		C1564F681A73F46100C09E3E /* rbstripsilverbutton3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripsilverbutton3.png; path = ../resources/rbstripsilverbutton3.png; sourceTree = "<group>"; };
+		C1564F691A73F46100C09E3E /* rbstripsilverbutton4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripsilverbutton4.png; path = ../resources/rbstripsilverbutton4.png; sourceTree = "<group>"; };
+		C1564F6A1A73F46100C09E3E /* rbstripsilverbutton5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripsilverbutton5.png; path = ../resources/rbstripsilverbutton5.png; sourceTree = "<group>"; };
+		C1564F6B1A73F46100C09E3E /* rbstripsilverbutton6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripsilverbutton6.png; path = ../resources/rbstripsilverbutton6.png; sourceTree = "<group>"; };
+		C1564F6C1A73F46100C09E3E /* rbstripsilverbutton7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripsilverbutton7.png; path = ../resources/rbstripsilverbutton7.png; sourceTree = "<group>"; };
+		C1564F6D1A73F46100C09E3E /* rbstripsilverbutton8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rbstripsilverbutton8.png; path = ../resources/rbstripsilverbutton8.png; sourceTree = "<group>"; };
+		C1564F6E1A73F46100C09E3E /* smallanalogvumeter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallanalogvumeter.png; path = ../resources/smallanalogvumeter.png; sourceTree = "<group>"; };
+		C1564F6F1A73F46100C09E3E /* smallblackplastic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallblackplastic.png; path = ../resources/smallblackplastic.png; sourceTree = "<group>"; };
+		C1564F701A73F46100C09E3E /* smalloberheimbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smalloberheimbutton.png; path = ../resources/smalloberheimbutton.png; sourceTree = "<group>"; };
+		C1564F711A73F46100C09E3E /* smallpowerswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallpowerswitch.png; path = ../resources/smallpowerswitch.png; sourceTree = "<group>"; };
+		C1564F721A73F46100C09E3E /* smallprohetbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallprohetbutton.png; path = ../resources/smallprohetbutton.png; sourceTree = "<group>"; };
+		C1564F731A73F46100C09E3E /* smallprophet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallprophet.png; path = ../resources/smallprophet.png; sourceTree = "<group>"; };
+		C1564F741A73F46100C09E3E /* smallrubberbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallrubberbutton.png; path = ../resources/smallrubberbutton.png; sourceTree = "<group>"; };
+		C1564F751A73F46100C09E3E /* smalltoggleswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smalltoggleswitch.png; path = ../resources/smalltoggleswitch.png; sourceTree = "<group>"; };
+		C1564F761A73F46100C09E3E /* sslblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sslblue.png; path = ../resources/sslblue.png; sourceTree = "<group>"; };
+		C1564F771A73F46100C09E3E /* sslblue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sslblue2.png; path = ../resources/sslblue2.png; sourceTree = "<group>"; };
+		C1564F781A73F46100C09E3E /* sslgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sslgreen.png; path = ../resources/sslgreen.png; sourceTree = "<group>"; };
+		C1564F791A73F46100C09E3E /* sslgreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sslgreen2.png; path = ../resources/sslgreen2.png; sourceTree = "<group>"; };
+		C1564F7A1A73F46100C09E3E /* sslred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sslred.png; path = ../resources/sslred.png; sourceTree = "<group>"; };
+		C1564F7B1A73F46100C09E3E /* sslred2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sslred2.png; path = ../resources/sslred2.png; sourceTree = "<group>"; };
+		C1564F7C1A73F46100C09E3E /* sslyellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sslyellow.png; path = ../resources/sslyellow.png; sourceTree = "<group>"; };
+		C1564F7D1A73F46100C09E3E /* sslyellow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sslyellow2.png; path = ../resources/sslyellow2.png; sourceTree = "<group>"; };
+		C1564F7E1A73F46100C09E3E /* tinyprophet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tinyprophet.png; path = ../resources/tinyprophet.png; sourceTree = "<group>"; };
+		C1564F7F1A73F46100C09E3E /* tinytoggleswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tinytoggleswitch.png; path = ../resources/tinytoggleswitch.png; sourceTree = "<group>"; };
+		C1564F801A73F46100C09E3E /* twossamber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twossamber.png; path = ../resources/twossamber.png; sourceTree = "<group>"; };
+		C1564F811A73F46100C09E3E /* twossgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twossgreen.png; path = ../resources/twossgreen.png; sourceTree = "<group>"; };
+		C1564F821A73F46100C09E3E /* vsbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vsbackground.png; path = ../resources/vsbackground.png; sourceTree = "<group>"; };
+		C1564F831A73F46100C09E3E /* vsbackgroundOLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vsbackgroundOLD.png; path = ../resources/vsbackgroundOLD.png; sourceTree = "<group>"; };
+		C1564F841A73F46100C09E3E /* vsbackgroundshort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vsbackgroundshort.png; path = ../resources/vsbackgroundshort.png; sourceTree = "<group>"; };
+		C1564F851A73F46100C09E3E /* vsbackgroundtwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vsbackgroundtwo.png; path = ../resources/vsbackgroundtwo.png; sourceTree = "<group>"; };
+		C1564F861A73F46100C09E3E /* vsbackshort56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vsbackshort56.png; path = ../resources/vsbackshort56.png; sourceTree = "<group>"; };
+		C1564F871A73F46100C09E3E /* vshandle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vshandle.png; path = ../resources/vshandle.png; sourceTree = "<group>"; };
+		C1564F881A73F46100C09E3E /* vshandleFU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vshandleFU.png; path = ../resources/vshandleFU.png; sourceTree = "<group>"; };
+		C1564F891A73F46100C09E3E /* vshandsmall56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vshandsmall56.png; path = ../resources/vshandsmall56.png; sourceTree = "<group>"; };
+		C1564F8B1A73F46100C09E3E /* vstgui.uidesc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = vstgui.uidesc; path = ../resources/vstgui.uidesc; sourceTree = "<group>"; };
+		C1564F8C1A73F46100C09E3E /* vuledoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vuledoff.png; path = ../resources/vuledoff.png; sourceTree = "<group>"; };
+		C1564F8D1A73F46100C09E3E /* vuledoffinv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vuledoffinv.png; path = ../resources/vuledoffinv.png; sourceTree = "<group>"; };
+		C1564F8E1A73F46100C09E3E /* vuledon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vuledon.png; path = ../resources/vuledon.png; sourceTree = "<group>"; };
+		C1564F8F1A73F46100C09E3E /* vuledoninv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vuledoninv.png; path = ../resources/vuledoninv.png; sourceTree = "<group>"; };
+		C1564F901A73F46100C09E3E /* whitedust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whitedust.png; path = ../resources/whitedust.png; sourceTree = "<group>"; };
+		C1564F911A73F46100C09E3E /* yellowmetal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowmetal.png; path = ../resources/yellowmetal.png; sourceTree = "<group>"; };
+		C15650171A73F7C200C09E3E /* vstsinglecomponenteffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstsinglecomponenteffect.cpp; path = ../../../../../source/vst/vstsinglecomponenteffect.cpp; sourceTree = "<group>"; };
+		C15650181A73F7C200C09E3E /* vstsinglecomponenteffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstsinglecomponenteffect.h; path = ../../../../../source/vst/vstsinglecomponenteffect.h; sourceTree = "<group>"; };
+		C156501A1A73F7D600C09E3E /* vst2wrapper.sdk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vst2wrapper.sdk.cpp; path = ../../../../../source/vst/vst2wrapper/vst2wrapper.sdk.cpp; sourceTree = "<group>"; };
+		C19725BA1B11125E00798F61 /* LogParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogParameter.cpp; path = ../source/LogParameter.cpp; sourceTree = "<group>"; };
+		C19725BB1B11125E00798F61 /* LogParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogParameter.h; path = ../source/LogParameter.h; sourceTree = "<group>"; };
+		C19725BC1B11125E00798F61 /* VoltOctaveParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VoltOctaveParameter.cpp; path = ../source/VoltOctaveParameter.cpp; sourceTree = "<group>"; };
+		C19725BD1B11125E00798F61 /* VoltOctaveParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoltOctaveParameter.h; path = ../source/VoltOctaveParameter.h; sourceTree = "<group>"; };
+		C1E48C691B4869D500A083F0 /* horizswitchsynth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizswitchsynth.png; path = ../resources/horizswitchsynth.png; sourceTree = "<group>"; };
+		C1E48C6A1B4869D500A083F0 /* vertswitchfilters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vertswitchfilters.png; path = ../resources/vertswitchfilters.png; sourceTree = "<group>"; };
+		C1E48C6B1B4869D500A083F0 /* horizvuledoninv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizvuledoninv.png; path = ../resources/horizvuledoninv.png; sourceTree = "<group>"; };
+		C1E48C6C1B4869D500A083F0 /* horizvuledoffinv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizvuledoffinv.png; path = ../resources/horizvuledoffinv.png; sourceTree = "<group>"; };
+		C1E48C6D1B4869D500A083F0 /* horizvuledon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizvuledon.png; path = ../resources/horizvuledon.png; sourceTree = "<group>"; };
+		C1E48C6E1B4869D500A083F0 /* horizvuledoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizvuledoff.png; path = ../resources/horizvuledoff.png; sourceTree = "<group>"; };
+		F40673BB12B0E5CD00BA0F64 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F40673CB12B0E60400BA0F64 /* vstgui_mac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = vstgui_mac.mm; path = ../../../../../../vstgui4/vstgui/vstgui_mac.mm; sourceTree = SOURCE_ROOT; };
+		F40673CC12B0E60400BA0F64 /* vstgui_uidescription_mac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = vstgui_uidescription_mac.mm; path = ../../../../../../vstgui4/vstgui/vstgui_uidescription_mac.mm; sourceTree = SOURCE_ROOT; };
+		F40673CF12B0E60F00BA0F64 /* vst3editor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vst3editor.cpp; path = "../../../../../../vstgui4/vstgui/plugin-bindings/vst3editor.cpp"; sourceTree = SOURCE_ROOT; };
+		F40673D012B0E60F00BA0F64 /* vst3editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vst3editor.h; path = "../../../../../../vstgui4/vstgui/plugin-bindings/vst3editor.h"; sourceTree = SOURCE_ROOT; };
+		F40673D412B0E66000BA0F64 /* vstguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstguieditor.cpp; path = ../../../../../source/vst/vstguieditor.cpp; sourceTree = SOURCE_ROOT; };
+		F40673D512B0E66000BA0F64 /* vstguieditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstguieditor.h; path = ../../../../../source/vst/vstguieditor.h; sourceTree = SOURCE_ROOT; };
+		F416981709A9DDEA0033823E /* pluginview.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = pluginview.cpp; path = ../../../../../source/common/pluginview.cpp; sourceTree = SOURCE_ROOT; };
+		F416981B09A9DE020033823E /* vstaudioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstaudioeffect.cpp; path = ../../../../../source/vst/vstaudioeffect.cpp; sourceTree = SOURCE_ROOT; };
+		F416981C09A9DE020033823E /* vstaudioeffect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstaudioeffect.h; path = ../../../../../source/vst/vstaudioeffect.h; sourceTree = SOURCE_ROOT; };
+		F416981D09A9DE020033823E /* vstcomponent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstcomponent.cpp; path = ../../../../../source/vst/vstcomponent.cpp; sourceTree = SOURCE_ROOT; };
+		F416981E09A9DE020033823E /* vstcomponent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstcomponent.h; path = ../../../../../source/vst/vstcomponent.h; sourceTree = SOURCE_ROOT; };
+		F416981F09A9DE020033823E /* vstcomponentbase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstcomponentbase.cpp; path = ../../../../../source/vst/vstcomponentbase.cpp; sourceTree = SOURCE_ROOT; };
+		F416982009A9DE020033823E /* vstcomponentbase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstcomponentbase.h; path = ../../../../../source/vst/vstcomponentbase.h; sourceTree = SOURCE_ROOT; };
+		F416982A09A9DE1B0033823E /* pluginview.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = pluginview.h; path = ../../../../../source/common/pluginview.h; sourceTree = SOURCE_ROOT; };
+		F416982D09A9DE3C0033823E /* funknown.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = funknown.h; path = ../../../../../../pluginterfaces/base/funknown.h; sourceTree = SOURCE_ROOT; };
+		F416982E09A9DE3C0033823E /* ustring.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ustring.cpp; path = ../../../../../../pluginterfaces/base/ustring.cpp; sourceTree = SOURCE_ROOT; };
+		F416982F09A9DE3C0033823E /* ustring.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ustring.h; path = ../../../../../../pluginterfaces/base/ustring.h; sourceTree = SOURCE_ROOT; };
+		F416983F09A9DE970033823E /* macmain.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = macmain.cpp; path = ../../../../../source/main/macmain.cpp; sourceTree = SOURCE_ROOT; };
+		F42D5F6C17B01CF500B85FE8 /* vst3padcontroller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vst3padcontroller.cpp; path = "../../../../../../vstgui4/vstgui/plugin-bindings/vst3padcontroller.cpp"; sourceTree = "<group>"; };
+		F42D5F6D17B01CF500B85FE8 /* vst3padcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vst3padcontroller.h; path = "../../../../../../vstgui4/vstgui/plugin-bindings/vst3padcontroller.h"; sourceTree = "<group>"; };
+		F43F05500C7DBC2B006D09AE /* ivstattributes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstattributes.h; path = ../../../../../../pluginterfaces/vst/ivstattributes.h; sourceTree = SOURCE_ROOT; };
+		F43F05510C7DBC2B006D09AE /* ivstaudioprocessor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstaudioprocessor.h; path = ../../../../../../pluginterfaces/vst/ivstaudioprocessor.h; sourceTree = SOURCE_ROOT; };
+		F43F05520C7DBC2B006D09AE /* ivstcomponent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstcomponent.h; path = ../../../../../../pluginterfaces/vst/ivstcomponent.h; sourceTree = SOURCE_ROOT; };
+		F43F05530C7DBC2B006D09AE /* ivsteditcontroller.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivsteditcontroller.h; path = ../../../../../../pluginterfaces/vst/ivsteditcontroller.h; sourceTree = SOURCE_ROOT; };
+		F43F05540C7DBC2B006D09AE /* ivstevents.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstevents.h; path = ../../../../../../pluginterfaces/vst/ivstevents.h; sourceTree = SOURCE_ROOT; };
+		F43F05550C7DBC2B006D09AE /* ivsthostapplication.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivsthostapplication.h; path = ../../../../../../pluginterfaces/vst/ivsthostapplication.h; sourceTree = SOURCE_ROOT; };
+		F43F05560C7DBC2B006D09AE /* ivstmessage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstmessage.h; path = ../../../../../../pluginterfaces/vst/ivstmessage.h; sourceTree = SOURCE_ROOT; };
+		F43F05570C7DBC2B006D09AE /* ivstmidicontrollers.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstmidicontrollers.h; path = ../../../../../../pluginterfaces/vst/ivstmidicontrollers.h; sourceTree = SOURCE_ROOT; };
+		F43F05580C7DBC2B006D09AE /* ivstparameterchanges.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstparameterchanges.h; path = ../../../../../../pluginterfaces/vst/ivstparameterchanges.h; sourceTree = SOURCE_ROOT; };
+		F43F05590C7DBC2B006D09AE /* ivstprocesscontext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstprocesscontext.h; path = ../../../../../../pluginterfaces/vst/ivstprocesscontext.h; sourceTree = SOURCE_ROOT; };
+		F43F055A0C7DBC2B006D09AE /* ivstunits.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ivstunits.h; path = ../../../../../../pluginterfaces/vst/ivstunits.h; sourceTree = SOURCE_ROOT; };
+		F43F055C0C7DBC2B006D09AE /* vstpresetkeys.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstpresetkeys.h; path = ../../../../../../pluginterfaces/vst/vstpresetkeys.h; sourceTree = SOURCE_ROOT; };
+		F43F055D0C7DBC2B006D09AE /* vsttypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vsttypes.h; path = ../../../../../../pluginterfaces/vst/vsttypes.h; sourceTree = SOURCE_ROOT; };
+		F449345F1018A37B00C2A94A /* debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = debug.xcconfig; path = config/debug.xcconfig; sourceTree = "<group>"; };
+		F44934601018A37B00C2A94A /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = release.xcconfig; path = config/release.xcconfig; sourceTree = "<group>"; };
+		F44D721312C249AA00354F52 /* vstnoteexpressiontypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstnoteexpressiontypes.h; path = ../../../../../source/vst/vstnoteexpressiontypes.h; sourceTree = SOURCE_ROOT; };
+		F44D721412C249AA00354F52 /* vstnoteexpressiontypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstnoteexpressiontypes.cpp; path = ../../../../../source/vst/vstnoteexpressiontypes.cpp; sourceTree = SOURCE_ROOT; };
+		F44D722512C24DA400354F52 /* ivstnoteexpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ivstnoteexpression.h; path = ../../../../../../pluginterfaces/vst/ivstnoteexpression.h; sourceTree = SOURCE_ROOT; };
+		F46786950D32425E009E4391 /* fplatform.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = fplatform.h; path = ../../../../../../pluginterfaces/base/fplatform.h; sourceTree = SOURCE_ROOT; };
+		F46786970D32425E009E4391 /* ftypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ftypes.h; path = ../../../../../../pluginterfaces/base/ftypes.h; sourceTree = SOURCE_ROOT; };
+		F46DCAAD0DF574A400234D52 /* conststringtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = conststringtable.h; path = ../../../../../../pluginterfaces/base/conststringtable.h; sourceTree = SOURCE_ROOT; };
+		F486862818241A7000CC4E30 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F48C1EB9113683500091915C /* base.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = base.xcodeproj; path = ../../../../../../base/mac/base.xcodeproj; sourceTree = SOURCE_ROOT; };
+		F491A6EF0D90189A00759819 /* vstbus.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstbus.cpp; path = ../../../../../source/vst/vstbus.cpp; sourceTree = SOURCE_ROOT; };
+		F491A6F00D90189A00759819 /* vstbus.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstbus.h; path = ../../../../../source/vst/vstbus.h; sourceTree = SOURCE_ROOT; };
+		F491A6F10D90189A00759819 /* vstparameters.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstparameters.cpp; path = ../../../../../source/vst/vstparameters.cpp; sourceTree = SOURCE_ROOT; };
+		F491A6F20D90189A00759819 /* vstparameters.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstparameters.h; path = ../../../../../source/vst/vstparameters.h; sourceTree = SOURCE_ROOT; };
+		F49D894A1074CACE003EFE21 /* pluginfactoryvst3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginfactoryvst3.cpp; path = ../../../../../source/main/pluginfactoryvst3.cpp; sourceTree = SOURCE_ROOT; };
+		F49D894B1074CACF003EFE21 /* pluginfactoryvst3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pluginfactoryvst3.h; path = ../../../../../source/main/pluginfactoryvst3.h; sourceTree = SOURCE_ROOT; };
+		F4AF682B17B136900083D7C1 /* vst3groupcontroller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vst3groupcontroller.cpp; path = "../../../../../../vstgui4/vstgui/plugin-bindings/vst3groupcontroller.cpp"; sourceTree = "<group>"; };
+		F4AF682C17B136900083D7C1 /* vst3groupcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vst3groupcontroller.h; path = "../../../../../../vstgui4/vstgui/plugin-bindings/vst3groupcontroller.h"; sourceTree = "<group>"; };
+		F4B062F51445C1D60054171D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		F4CFAB940E8A71A20043E468 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		F4CFAC210E8A789D0043E468 /* iplugview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iplugview.h; path = ../../../../../../pluginterfaces/gui/iplugview.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F486862918241A7000CC4E30 /* QuartzCore.framework in Frameworks */,
+				F4B062F61445C1D60054171D /* OpenGL.framework in Frameworks */,
+				8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */,
+				F4CFAB950E8A71A20043E468 /* Cocoa.framework in Frameworks */,
+				F48C1EC2113683520091915C /* libbase.a in Frameworks */,
+				F40673BC12B0E5CD00BA0F64 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107B6D41ABF180B00FA1114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107B6D51ABF180B00FA1114 /* QuartzCore.framework in Frameworks */,
+				C107B6D61ABF180B00FA1114 /* OpenGL.framework in Frameworks */,
+				C107B6D71ABF180B00FA1114 /* Carbon.framework in Frameworks */,
+				C107B6D81ABF180B00FA1114 /* Cocoa.framework in Frameworks */,
+				C107B6D91ABF180B00FA1114 /* libbase.a in Frameworks */,
+				C107B6DA1ABF180B00FA1114 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* again */ = {
+			isa = PBXGroup;
+			children = (
+				F486862818241A7000CC4E30 /* QuartzCore.framework */,
+				F48C1EB9113683500091915C /* base.xcodeproj */,
+				F449345C1018A36F00C2A94A /* config */,
+				08FB77ADFE841716C02AAC07 /* Source Files */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = again;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F4B062F51445C1D60054171D /* OpenGL.framework */,
+				F4CFAB940E8A71A20043E468 /* Cocoa.framework */,
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+				F40673BB12B0E5CD00BA0F64 /* Accelerate.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1E48C691B4869D500A083F0 /* horizswitchsynth.png */,
+				C1E48C6A1B4869D500A083F0 /* vertswitchfilters.png */,
+				C1E48C6B1B4869D500A083F0 /* horizvuledoninv.png */,
+				C1E48C6C1B4869D500A083F0 /* horizvuledoffinv.png */,
+				C1E48C6D1B4869D500A083F0 /* horizvuledon.png */,
+				C1E48C6E1B4869D500A083F0 /* horizvuledoff.png */,
+				C1564F0D1A73F46000C09E3E /* alphaampknob.png */,
+				C1564F0E1A73F46000C09E3E /* alphablackgearknob1.png */,
+				C1564F0F1A73F46000C09E3E /* alphablackgearknob2.png */,
+				C1564F101A73F46000C09E3E /* alphablackplastic.png */,
+				C1564F111A73F46000C09E3E /* alphachickenhead.png */,
+				C1564F121A73F46000C09E3E /* alphachickenhead2.png */,
+				C1564F131A73F46000C09E3E /* alphachickenhead3.png */,
+				C1564F141A73F46000C09E3E /* alphafxknob.png */,
+				C1564F151A73F46000C09E3E /* alphagreenableton.png */,
+				C1564F161A73F46000C09E3E /* alphaknob303.png */,
+				C1564F171A73F46000C09E3E /* alpham400.png */,
+				C1564F181A73F46000C09E3E /* alphamaschine.png */,
+				C1564F191A73F46000C09E3E /* alphaminibrute.png */,
+				C1564F1A1A73F46000C09E3E /* alphaorangeamp.png */,
+				C1564F1B1A73F46000C09E3E /* alphaprophet.png */,
+				C1564F1C1A73F46000C09E3E /* alphasslblue.png */,
+				C1564F1D1A73F46000C09E3E /* alphasslblue2.png */,
+				C1564F1E1A73F46000C09E3E /* alphasslgreen.png */,
+				C1564F1F1A73F46000C09E3E /* alphasslgreen2.png */,
+				C1564F201A73F46000C09E3E /* alphasslred.png */,
+				C1564F211A73F46000C09E3E /* alphasslred2.png */,
+				C1564F221A73F46000C09E3E /* alphasslyellow.png */,
+				C1564F231A73F46000C09E3E /* alphawhitedust.png */,
+				C1564F241A73F46000C09E3E /* amberonoff.png */,
+				C1564F251A73F46000C09E3E /* ampknob.png */,
+				C1564F261A73F46000C09E3E /* analogvumeter.png */,
+				C1564F271A73F46000C09E3E /* assignbamber.png */,
+				C1564F281A73F46000C09E3E /* background.png */,
+				C1564F291A73F46000C09E3E /* bigampknob.png */,
+				C1564F2A1A73F46000C09E3E /* biganalogvumeter.png */,
+				C1564F2B1A73F46000C09E3E /* bigoberheimbutton.png */,
+				C1564F2C1A73F46000C09E3E /* bigpowerswitch.png */,
+				C1564F2D1A73F46000C09E3E /* bigprohphetbutton.png */,
+				C1564F2E1A73F46000C09E3E /* bigrubberbutton.png */,
+				C1564F2F1A73F46000C09E3E /* bigtoggleswitch.png */,
+				C1564F301A73F46000C09E3E /* blackgearknob.png */,
+				C1564F311A73F46000C09E3E /* blackplastic.png */,
+				C1564F321A73F46000C09E3E /* blueableton.png */,
+				C1564F331A73F46000C09E3E /* bluemetal.png */,
+				C1564F341A73F46000C09E3E /* chickenhead.png */,
+				C1564F351A73F46000C09E3E /* chickenhead2.png */,
+				C1564F361A73F46000C09E3E /* chickenhead3.png */,
+				C1564F371A73F46000C09E3E /* darkgreyvinyl.png */,
+				C1564F381A73F46000C09E3E /* fxknob.png */,
+				C1564F391A73F46000C09E3E /* giantampknob.png */,
+				C1564F3A1A73F46000C09E3E /* giantblackplastic.png */,
+				C1564F3B1A73F46000C09E3E /* giantprophet.png */,
+				C1564F3C1A73F46000C09E3E /* greenableton.png */,
+				C1564F3D1A73F46000C09E3E /* greenmetal.png */,
+				C1564F3E1A73F46000C09E3E /* greyableton.png */,
+				C1564F3F1A73F46000C09E3E /* greymetal.png */,
+				C1564F401A73F46000C09E3E /* groupframe.png */,
+				C1564F411A73F46000C09E3E /* hsbackground.png */,
+				C1564F421A73F46000C09E3E /* hsbackS700.png */,
+				C1564F431A73F46000C09E3E /* hsbackshort56.png */,
+				C1564F441A73F46000C09E3E /* hshandle.png */,
+				C1564F451A73F46000C09E3E /* hshandS700.png */,
+				C1564F461A73F46000C09E3E /* hshandsmall56.png */,
+				C1564F471A73F46000C09E3E /* knob.png */,
+				C1564F481A73F46000C09E3E /* knob2.png */,
+				C1564F491A73F46000C09E3E /* knob303.png */,
+				C1564F4A1A73F46000C09E3E /* knobm400.png */,
+				C1564F4B1A73F46000C09E3E /* lightgreymetal.png */,
+				C1564F4C1A73F46000C09E3E /* maschine.png */,
+				C1564F4D1A73F46000C09E3E /* medanalogvumeter.png */,
+				C1564F4E1A73F46000C09E3E /* medoberheimbutton.png */,
+				C1564F4F1A73F46000C09E3E /* medpowerswitch.png */,
+				C1564F501A73F46000C09E3E /* medprophetbutton.png */,
+				C1564F511A73F46000C09E3E /* medrubberbutton.png */,
+				C1564F521A73F46000C09E3E /* medtoggleswitch.png */,
+				C1564F531A73F46000C09E3E /* microoberheimbutton.png */,
+				C1564F541A73F46000C09E3E /* microtoggleswitch.png */,
+				C1564F551A73F46000C09E3E /* minibrute.png */,
+				C1564F561A73F46000C09E3E /* orangeamp.png */,
+				C1564F571A73F46000C09E3E /* prophet.png */,
+				C1564F581A73F46000C09E3E /* RackAFX.uidesc */,
+				C141BAF51B125EFE00C59940 /* knobvst.png */,
+				C1564F591A73F46000C09E3E /* rbstripamber2.png */,
+				C1564F5A1A73F46000C09E3E /* rbstripamber3.png */,
+				C1564F5B1A73F46000C09E3E /* rbstripamber4.png */,
+				C1564F5C1A73F46000C09E3E /* rbstripamber5.png */,
+				C1564F5D1A73F46000C09E3E /* rbstripamber6.png */,
+				C1564F5E1A73F46000C09E3E /* rbstripamber7.png */,
+				C1564F5F1A73F46000C09E3E /* rbstripamber8.png */,
+				C1564F601A73F46000C09E3E /* rbstripgreen2.png */,
+				C1564F611A73F46000C09E3E /* rbstripgreen3.png */,
+				C1564F621A73F46000C09E3E /* rbstripgreen4.png */,
+				C1564F631A73F46000C09E3E /* rbstripgreen5.png */,
+				C1564F641A73F46000C09E3E /* rbstripgreen6.png */,
+				C1564F651A73F46100C09E3E /* rbstripgreen7.png */,
+				C1564F661A73F46100C09E3E /* rbstripgreen8.png */,
+				C1564F671A73F46100C09E3E /* rbstripsilverbutton2.png */,
+				C1564F681A73F46100C09E3E /* rbstripsilverbutton3.png */,
+				C1564F691A73F46100C09E3E /* rbstripsilverbutton4.png */,
+				C1564F6A1A73F46100C09E3E /* rbstripsilverbutton5.png */,
+				C1564F6B1A73F46100C09E3E /* rbstripsilverbutton6.png */,
+				C1564F6C1A73F46100C09E3E /* rbstripsilverbutton7.png */,
+				C1564F6D1A73F46100C09E3E /* rbstripsilverbutton8.png */,
+				C1564F6E1A73F46100C09E3E /* smallanalogvumeter.png */,
+				C1564F6F1A73F46100C09E3E /* smallblackplastic.png */,
+				C1564F701A73F46100C09E3E /* smalloberheimbutton.png */,
+				C1564F711A73F46100C09E3E /* smallpowerswitch.png */,
+				C1564F721A73F46100C09E3E /* smallprohetbutton.png */,
+				C1564F731A73F46100C09E3E /* smallprophet.png */,
+				C1564F741A73F46100C09E3E /* smallrubberbutton.png */,
+				C1564F751A73F46100C09E3E /* smalltoggleswitch.png */,
+				C1564F761A73F46100C09E3E /* sslblue.png */,
+				C1564F771A73F46100C09E3E /* sslblue2.png */,
+				C1564F781A73F46100C09E3E /* sslgreen.png */,
+				C1564F791A73F46100C09E3E /* sslgreen2.png */,
+				C1564F7A1A73F46100C09E3E /* sslred.png */,
+				C1564F7B1A73F46100C09E3E /* sslred2.png */,
+				C1564F7C1A73F46100C09E3E /* sslyellow.png */,
+				C1564F7D1A73F46100C09E3E /* sslyellow2.png */,
+				C1564F7E1A73F46100C09E3E /* tinyprophet.png */,
+				C1564F7F1A73F46100C09E3E /* tinytoggleswitch.png */,
+				C1564F801A73F46100C09E3E /* twossamber.png */,
+				C1564F811A73F46100C09E3E /* twossgreen.png */,
+				C1564F821A73F46100C09E3E /* vsbackground.png */,
+				C1564F831A73F46100C09E3E /* vsbackgroundOLD.png */,
+				C1564F841A73F46100C09E3E /* vsbackgroundshort.png */,
+				C1564F851A73F46100C09E3E /* vsbackgroundtwo.png */,
+				C1564F861A73F46100C09E3E /* vsbackshort56.png */,
+				C1564F871A73F46100C09E3E /* vshandle.png */,
+				C1564F881A73F46100C09E3E /* vshandleFU.png */,
+				C1564F891A73F46100C09E3E /* vshandsmall56.png */,
+				C1564F8B1A73F46100C09E3E /* vstgui.uidesc */,
+				C1564F8C1A73F46100C09E3E /* vuledoff.png */,
+				C1564F8D1A73F46100C09E3E /* vuledoffinv.png */,
+				C1564F8E1A73F46100C09E3E /* vuledon.png */,
+				C1564F8F1A73F46100C09E3E /* vuledoninv.png */,
+				C1564F901A73F46100C09E3E /* whitedust.png */,
+				C1564F911A73F46100C09E3E /* yellowmetal.png */,
+				8D01CCD10486CAD60068D4B7 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1564ED81A73F05900C09E3E /* Custom Controls */,
+				C1564ED71A73F03C00C09E3E /* RAFXCore */,
+				C1564ED61A73F02F00C09E3E /* VSTSource */,
+				F40673BD12B0E5F100BA0F64 /* vstgui4 */,
+				F416981109A9DD4F0033823E /* vst3.sdk */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD20486CAD60068D4B7 /* CowleyTech HIGH-PASS-FILTER.vst3 */,
+				C107B6DF1ABF180B00FA1114 /* CowleyTech HIGH-PASS-FILTER.vst */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1564ED61A73F02F00C09E3E /* VSTSource */ = {
+			isa = PBXGroup;
+			children = (
+				C1564F061A73F10100C09E3E /* factory.cpp */,
+				C1564F081A73F10100C09E3E /* version.h */,
+				C1564F091A73F10100C09E3E /* VSTProcessor.cpp */,
+				C1564F0A1A73F10100C09E3E /* VSTProcessor.h */,
+			);
+			name = VSTSource;
+			sourceTree = "<group>";
+		};
+		C1564ED71A73F03C00C09E3E /* RAFXCore */ = {
+			isa = PBXGroup;
+			children = (
+				C14233661B7BA87500F0EBA5 /* RackAFXGUIFactory.cpp */,
+				C1564EF71A73F0ED00C09E3E /* lookuptables.h */,
+				C1564EF81A73F0ED00C09E3E /* plugin.cpp */,
+				C1564EF91A73F0ED00C09E3E /* plugin.h */,
+				C1564EFA1A73F0ED00C09E3E /* pluginconstants.h */,
+				C1564EFB1A73F0ED00C09E3E /* pluginobjects.cpp */,
+				C1564EFC1A73F0ED00C09E3E /* RafxPluginFactory.cpp */,
+				C1564EFD1A73F0ED00C09E3E /* RafxPluginFactory.h */,
+				C1564EFE1A73F0ED00C09E3E /* SimpleHPF.cpp */,
+				C1564EFF1A73F0ED00C09E3E /* SimpleHPF.h */,
+				C14F1C721B12303F0095A4B5 /* resource.h */,
+				C1564F001A73F0ED00C09E3E /* synthfunctions.h */,
+				C1564F011A73F0ED00C09E3E /* SynthParamLimits.h */,
+			);
+			name = RAFXCore;
+			sourceTree = "<group>";
+		};
+		C1564ED81A73F05900C09E3E /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				C19725BA1B11125E00798F61 /* LogParameter.cpp */,
+				C19725BB1B11125E00798F61 /* LogParameter.h */,
+				C19725BC1B11125E00798F61 /* VoltOctaveParameter.cpp */,
+				C19725BD1B11125E00798F61 /* VoltOctaveParameter.h */,
+				C1564ED91A73F0B800C09E3E /* KickButtonWP.cpp */,
+				C1564EDA1A73F0B800C09E3E /* KickButtonWP.h */,
+				C1564EDB1A73F0B800C09E3E /* KnobWP.cpp */,
+				C1564EDC1A73F0B800C09E3E /* KnobWP.h */,
+				C1564EDD1A73F0B800C09E3E /* LCDController.cpp */,
+				C1564EDE1A73F0B900C09E3E /* LCDController.h */,
+				C1564EDF1A73F0B900C09E3E /* PadControllerWP.cpp */,
+				C1564EE01A73F0B900C09E3E /* PadControllerWP.h */,
+				C1564EE11A73F0B900C09E3E /* PeakParameter.cpp */,
+				C1564EE21A73F0B900C09E3E /* PeakParameter.h */,
+				C1564EE31A73F0B900C09E3E /* RackAFXMeterDetector.cpp */,
+				C1564EE41A73F0B900C09E3E /* RackAFXMeterDetector.h */,
+				C1564EE51A73F0B900C09E3E /* SliderWP.cpp */,
+				C1564EE61A73F0B900C09E3E /* SliderWP.h */,
+				C1564EE71A73F0B900C09E3E /* VST3EditorWP.cpp */,
+				C1564EE81A73F0B900C09E3E /* VST3EditorWP.h */,
+				C1564EE91A73F0B900C09E3E /* VuMeterWP.cpp */,
+				C1564EEA1A73F0B900C09E3E /* VuMeterWP.h */,
+				C1564EEB1A73F0B900C09E3E /* XYPadWP.cpp */,
+				C1564EEC1A73F0B900C09E3E /* XYPadWP.h */,
+			);
+			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		F40673BD12B0E5F100BA0F64 /* vstgui4 */ = {
+			isa = PBXGroup;
+			children = (
+				F4AF682B17B136900083D7C1 /* vst3groupcontroller.cpp */,
+				F4AF682C17B136900083D7C1 /* vst3groupcontroller.h */,
+				F42D5F6C17B01CF500B85FE8 /* vst3padcontroller.cpp */,
+				F42D5F6D17B01CF500B85FE8 /* vst3padcontroller.h */,
+				F40673CF12B0E60F00BA0F64 /* vst3editor.cpp */,
+				F40673D012B0E60F00BA0F64 /* vst3editor.h */,
+				F40673CB12B0E60400BA0F64 /* vstgui_mac.mm */,
+				F40673CC12B0E60400BA0F64 /* vstgui_uidescription_mac.mm */,
+			);
+			name = vstgui4;
+			sourceTree = "<group>";
+		};
+		F416981109A9DD4F0033823E /* vst3.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F416981309A9DD670033823E /* public.sdk */,
+				F416981209A9DD610033823E /* pluginterfaces */,
+			);
+			name = vst3.sdk;
+			sourceTree = "<group>";
+		};
+		F416981209A9DD610033823E /* pluginterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F43F05430C7DBC0D006D09AE /* base */,
+				F4CFAC1C0E8A78910043E468 /* gui */,
+				F43F055E0C7DBC2E006D09AE /* vst */,
+			);
+			name = pluginterfaces;
+			sourceTree = "<group>";
+		};
+		F416981309A9DD670033823E /* public.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				F416981409A9DDDA0033823E /* common */,
+				F416983A09A9DE810033823E /* main */,
+				F416982709A9DE040033823E /* vst */,
+			);
+			name = public.sdk;
+			sourceTree = "<group>";
+		};
+		F416981409A9DDDA0033823E /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F416981709A9DDEA0033823E /* pluginview.cpp */,
+				F416982A09A9DE1B0033823E /* pluginview.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		F416982709A9DE040033823E /* vst */ = {
+			isa = PBXGroup;
+			children = (
+				C156501A1A73F7D600C09E3E /* vst2wrapper.sdk.cpp */,
+				C15650171A73F7C200C09E3E /* vstsinglecomponenteffect.cpp */,
+				C15650181A73F7C200C09E3E /* vstsinglecomponenteffect.h */,
+				F416981B09A9DE020033823E /* vstaudioeffect.cpp */,
+				F416981C09A9DE020033823E /* vstaudioeffect.h */,
+				F491A6EF0D90189A00759819 /* vstbus.cpp */,
+				F491A6F00D90189A00759819 /* vstbus.h */,
+				F416981D09A9DE020033823E /* vstcomponent.cpp */,
+				F416981E09A9DE020033823E /* vstcomponent.h */,
+				F416981F09A9DE020033823E /* vstcomponentbase.cpp */,
+				F416982009A9DE020033823E /* vstcomponentbase.h */,
+				F40673D412B0E66000BA0F64 /* vstguieditor.cpp */,
+				F40673D512B0E66000BA0F64 /* vstguieditor.h */,
+				5810B8E61083557600EBDCF2 /* vstinitiids.cpp */,
+				F44D721412C249AA00354F52 /* vstnoteexpressiontypes.cpp */,
+				F44D721312C249AA00354F52 /* vstnoteexpressiontypes.h */,
+				F491A6F10D90189A00759819 /* vstparameters.cpp */,
+				F491A6F20D90189A00759819 /* vstparameters.h */,
+			);
+			name = vst;
+			sourceTree = "<group>";
+		};
+		F416983A09A9DE810033823E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				F416983F09A9DE970033823E /* macmain.cpp */,
+				F49D894A1074CACE003EFE21 /* pluginfactoryvst3.cpp */,
+				F49D894B1074CACF003EFE21 /* pluginfactoryvst3.h */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		F43F05430C7DBC0D006D09AE /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F46DCAAD0DF574A400234D52 /* conststringtable.h */,
+				F46786950D32425E009E4391 /* fplatform.h */,
+				F46786970D32425E009E4391 /* ftypes.h */,
+				F416982D09A9DE3C0033823E /* funknown.h */,
+				F416982E09A9DE3C0033823E /* ustring.cpp */,
+				F416982F09A9DE3C0033823E /* ustring.h */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		F43F055E0C7DBC2E006D09AE /* vst */ = {
+			isa = PBXGroup;
+			children = (
+				F43F05500C7DBC2B006D09AE /* ivstattributes.h */,
+				F43F05510C7DBC2B006D09AE /* ivstaudioprocessor.h */,
+				F43F05520C7DBC2B006D09AE /* ivstcomponent.h */,
+				F43F05530C7DBC2B006D09AE /* ivsteditcontroller.h */,
+				F43F05540C7DBC2B006D09AE /* ivstevents.h */,
+				F43F05550C7DBC2B006D09AE /* ivsthostapplication.h */,
+				F43F05560C7DBC2B006D09AE /* ivstmessage.h */,
+				F43F05570C7DBC2B006D09AE /* ivstmidicontrollers.h */,
+				F44D722512C24DA400354F52 /* ivstnoteexpression.h */,
+				F43F05580C7DBC2B006D09AE /* ivstparameterchanges.h */,
+				F43F05590C7DBC2B006D09AE /* ivstprocesscontext.h */,
+				F43F055A0C7DBC2B006D09AE /* ivstunits.h */,
+				F43F055C0C7DBC2B006D09AE /* vstpresetkeys.h */,
+				F43F055D0C7DBC2B006D09AE /* vsttypes.h */,
+			);
+			name = vst;
+			sourceTree = "<group>";
+		};
+		F449345C1018A36F00C2A94A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				F449345F1018A37B00C2A94A /* debug.xcconfig */,
+				F44934601018A37B00C2A94A /* release.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		F48C1EBA113683500091915C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48C1EC1113683500091915C /* libbase.a */,
+				F486862E18241A7000CC4E30 /* libbase_libc++.a */,
+				F486863018241A7000CC4E30 /* libbase_ios.a */,
+				F49C196F156E763500AD946F /* libbase_codecoverage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CFAC1C0E8A78910043E468 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFAC210E8A789D0043E468 /* iplugview.h */,
+			);
+			name = gui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C107B6151ABF180B00FA1114 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107B6161ABF180B00FA1114 /* KickButtonWP.h in Headers */,
+				C19725C51B1114C600798F61 /* VoltOctaveParameter.h in Headers */,
+				C107B6171ABF180B00FA1114 /* KnobWP.h in Headers */,
+				C107B6181ABF180B00FA1114 /* LCDController.h in Headers */,
+				C107B6191ABF180B00FA1114 /* PadControllerWP.h in Headers */,
+				C107B61A1ABF180B00FA1114 /* PeakParameter.h in Headers */,
+				C107B61B1ABF180B00FA1114 /* RackAFXMeterDetector.h in Headers */,
+				C107B61C1ABF180B00FA1114 /* SliderWP.h in Headers */,
+				C19725C31B1114BD00798F61 /* LogParameter.h in Headers */,
+				C107B61D1ABF180B00FA1114 /* VST3EditorWP.h in Headers */,
+				C107B61E1ABF180B00FA1114 /* VuMeterWP.h in Headers */,
+				C107B61F1ABF180B00FA1114 /* XYPadWP.h in Headers */,
+				C107B6201ABF180B00FA1114 /* lookuptables.h in Headers */,
+				C107B6211ABF180B00FA1114 /* plugin.h in Headers */,
+				C107B6221ABF180B00FA1114 /* pluginconstants.h in Headers */,
+				C107B6231ABF180B00FA1114 /* RafxPluginFactory.h in Headers */,
+				C107B6241ABF180B00FA1114 /* SimpleHPF.h in Headers */,
+				C14F1CF21B12303F0095A4B5 /* resource.h in Headers */,
+				C107B6251ABF180B00FA1114 /* synthfunctions.h in Headers */,
+				C107B6261ABF180B00FA1114 /* SynthParamLimits.h in Headers */,
+				C107B6281ABF180B00FA1114 /* version.h in Headers */,
+				C107B6291ABF180B00FA1114 /* VSTProcessor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15653661A74304B00C09E3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C156536A1A7430E000C09E3E /* KickButtonWP.h in Headers */,
+				C156536B1A7430E000C09E3E /* KnobWP.h in Headers */,
+				C156536C1A7430E000C09E3E /* LCDController.h in Headers */,
+				C156536D1A7430E000C09E3E /* PadControllerWP.h in Headers */,
+				C156536E1A7430E000C09E3E /* PeakParameter.h in Headers */,
+				C156536F1A7430E000C09E3E /* RackAFXMeterDetector.h in Headers */,
+				C19725BF1B11125E00798F61 /* LogParameter.h in Headers */,
+				C15653701A7430E000C09E3E /* SliderWP.h in Headers */,
+				C15653711A7430E000C09E3E /* VST3EditorWP.h in Headers */,
+				C15653721A7430E000C09E3E /* VuMeterWP.h in Headers */,
+				C15653731A7430E000C09E3E /* XYPadWP.h in Headers */,
+				C15653741A7430E000C09E3E /* lookuptables.h in Headers */,
+				C15653751A7430E000C09E3E /* plugin.h in Headers */,
+				C15653761A7430E000C09E3E /* pluginconstants.h in Headers */,
+				C15653771A7430E000C09E3E /* RafxPluginFactory.h in Headers */,
+				C15653781A7430E000C09E3E /* SimpleHPF.h in Headers */,
+				C14F1CF21B12303F0095A4B5 /* resource.h in Headers */,
+				C15653791A7430E000C09E3E /* synthfunctions.h in Headers */,
+				C19725C11B11125E00798F61 /* VoltOctaveParameter.h in Headers */,
+				C156537A1A7430E000C09E3E /* SynthParamLimits.h in Headers */,
+				C156537C1A7430E100C09E3E /* version.h in Headers */,
+				C156537D1A7430E100C09E3E /* VSTProcessor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D01CCC60486CAD60068D4B7 /* CowleyTech HIGH-PASS-FILTER VST3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FADC23308B4156C00ABE55E /* Build configuration list for PBXNativeTarget "CowleyTech HIGH-PASS-FILTER VST3" */;
+			buildPhases = (
+				C15653661A74304B00C09E3E /* Headers */,
+				8D01CCC90486CAD60068D4B7 /* Resources */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+				C107B6E11ABF189200FA1114 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48C1EC4113683600091915C /* PBXTargetDependency */,
+			);
+			name = "CowleyTech HIGH-PASS-FILTER VST3";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = again;
+			productReference = 8D01CCD20486CAD60068D4B7 /* CowleyTech HIGH-PASS-FILTER.vst3 */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C107B6121ABF180B00FA1114 /* CowleyTech HIGH-PASS-FILTER VST2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C107B6DC1ABF180B00FA1114 /* Build configuration list for PBXNativeTarget "CowleyTech HIGH-PASS-FILTER VST2" */;
+			buildPhases = (
+				C107B6151ABF180B00FA1114 /* Headers */,
+				C107B62A1ABF180B00FA1114 /* Resources */,
+				C107B6B01ABF180B00FA1114 /* Sources */,
+				C107B6D41ABF180B00FA1114 /* Frameworks */,
+				C107B6E31ABF18AC00FA1114 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C107B6131ABF180B00FA1114 /* PBXTargetDependency */,
+			);
+			name = "CowleyTech HIGH-PASS-FILTER VST2";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = again;
+			productReference = C107B6DF1ABF180B00FA1114 /* CowleyTech HIGH-PASS-FILTER.vst */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "CowleyTech HIGH-PASS-FILTER" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* again */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F48C1EBA113683500091915C /* Products */;
+					ProjectRef = F48C1EB9113683500091915C /* base.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D01CCC60486CAD60068D4B7 /* CowleyTech HIGH-PASS-FILTER VST3 */,
+				C107B6121ABF180B00FA1114 /* CowleyTech HIGH-PASS-FILTER VST2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F486862E18241A7000CC4E30 /* libbase_libc++.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libbase_libc++.a";
+			remoteRef = F486862D18241A7000CC4E30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F486863018241A7000CC4E30 /* libbase_ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbase_ios.a;
+			remoteRef = F486862F18241A7000CC4E30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F48C1EC1113683500091915C /* libbase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbase.a;
+			remoteRef = F48C1EC0113683500091915C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F49C196F156E763500AD946F /* libbase_codecoverage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbase_codecoverage.a;
+			remoteRef = F49C196E156E763500AD946F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D01CCC90486CAD60068D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1564FD61A73F46100C09E3E /* medrubberbutton.png in Resources */,
+				C1564FED1A73F46100C09E3E /* rbstripsilverbutton3.png in Resources */,
+				C1E48C711B4869D500A083F0 /* horizvuledoninv.png in Resources */,
+				C1E48C701B4869D500A083F0 /* vertswitchfilters.png in Resources */,
+				C15650161A73F46100C09E3E /* yellowmetal.png in Resources */,
+				C1564FC41A73F46100C09E3E /* greymetal.png in Resources */,
+				C1564FA91A73F46100C09E3E /* amberonoff.png in Resources */,
+				C1564FE41A73F46100C09E3E /* rbstripamber8.png in Resources */,
+				C1564FB91A73F46100C09E3E /* chickenhead.png in Resources */,
+				C1564FDF1A73F46100C09E3E /* rbstripamber3.png in Resources */,
+				C1564FB21A73F46100C09E3E /* bigprohphetbutton.png in Resources */,
+				C1564FC61A73F46100C09E3E /* hsbackground.png in Resources */,
+				C156500C1A73F46100C09E3E /* vshandle.png in Resources */,
+				C15650121A73F46100C09E3E /* vuledoffinv.png in Resources */,
+				C1564F9C1A73F46100C09E3E /* alpham400.png in Resources */,
+				C1564FC51A73F46100C09E3E /* groupframe.png in Resources */,
+				C1564FD11A73F46100C09E3E /* maschine.png in Resources */,
+				C1564F9F1A73F46100C09E3E /* alphaorangeamp.png in Resources */,
+				C1564FBB1A73F46100C09E3E /* chickenhead3.png in Resources */,
+				C1564FDA1A73F46100C09E3E /* minibrute.png in Resources */,
+				C1564F991A73F46100C09E3E /* alphafxknob.png in Resources */,
+				C15650071A73F46100C09E3E /* vsbackground.png in Resources */,
+				C15650031A73F46100C09E3E /* tinyprophet.png in Resources */,
+				C1564FE71A73F46100C09E3E /* rbstripgreen4.png in Resources */,
+				C15650151A73F46100C09E3E /* whitedust.png in Resources */,
+				C1564FA21A73F46100C09E3E /* alphasslblue2.png in Resources */,
+				C156500D1A73F46100C09E3E /* vshandleFU.png in Resources */,
+				C1E48C721B4869D500A083F0 /* horizvuledoffinv.png in Resources */,
+				C15650001A73F46100C09E3E /* sslred2.png in Resources */,
+				C1564FA11A73F46100C09E3E /* alphasslblue.png in Resources */,
+				C1564FA51A73F46100C09E3E /* alphasslred.png in Resources */,
+				C1564FFA1A73F46100C09E3E /* smalltoggleswitch.png in Resources */,
+				C15650131A73F46100C09E3E /* vuledon.png in Resources */,
+				C1564FAF1A73F46100C09E3E /* biganalogvumeter.png in Resources */,
+				C1564F961A73F46100C09E3E /* alphachickenhead.png in Resources */,
+				C15650021A73F46100C09E3E /* sslyellow2.png in Resources */,
+				C15650081A73F46100C09E3E /* vsbackgroundOLD.png in Resources */,
+				C1564FF01A73F46100C09E3E /* rbstripsilverbutton6.png in Resources */,
+				C1564FC71A73F46100C09E3E /* hsbackS700.png in Resources */,
+				C1564FA71A73F46100C09E3E /* alphasslyellow.png in Resources */,
+				C1E48C6F1B4869D500A083F0 /* horizswitchsynth.png in Resources */,
+				C15650061A73F46100C09E3E /* twossgreen.png in Resources */,
+				C1564FF11A73F46100C09E3E /* rbstripsilverbutton7.png in Resources */,
+				C15650091A73F46100C09E3E /* vsbackgroundshort.png in Resources */,
+				C1564FBC1A73F46100C09E3E /* darkgreyvinyl.png in Resources */,
+				C1564FAD1A73F46100C09E3E /* background.png in Resources */,
+				C1564FE91A73F46100C09E3E /* rbstripgreen6.png in Resources */,
+				C1564F971A73F46100C09E3E /* alphachickenhead2.png in Resources */,
+				C1564FD91A73F46100C09E3E /* microtoggleswitch.png in Resources */,
+				C1564FCC1A73F46100C09E3E /* knob.png in Resources */,
+				C1564FB41A73F46100C09E3E /* bigtoggleswitch.png in Resources */,
+				C1564FD51A73F46100C09E3E /* medprophetbutton.png in Resources */,
+				C1564FBD1A73F46100C09E3E /* fxknob.png in Resources */,
+				C1564F9B1A73F46100C09E3E /* alphaknob303.png in Resources */,
+				C1564FF31A73F46100C09E3E /* smallanalogvumeter.png in Resources */,
+				C1564FF81A73F46100C09E3E /* smallprophet.png in Resources */,
+				C1564FBE1A73F46100C09E3E /* giantampknob.png in Resources */,
+				C1564FFF1A73F46100C09E3E /* sslred.png in Resources */,
+				C15650051A73F46100C09E3E /* twossamber.png in Resources */,
+				C1564FD21A73F46100C09E3E /* medanalogvumeter.png in Resources */,
+				C1564F921A73F46100C09E3E /* alphaampknob.png in Resources */,
+				C1564FA61A73F46100C09E3E /* alphasslred2.png in Resources */,
+				C1564FDE1A73F46100C09E3E /* rbstripamber2.png in Resources */,
+				C15650011A73F46100C09E3E /* sslyellow.png in Resources */,
+				C1564FBA1A73F46100C09E3E /* chickenhead2.png in Resources */,
+				C1564F941A73F46100C09E3E /* alphablackgearknob2.png in Resources */,
+				C1564FC31A73F46100C09E3E /* greyableton.png in Resources */,
+				C1564FF61A73F46100C09E3E /* smallpowerswitch.png in Resources */,
+				C1564FA81A73F46100C09E3E /* alphawhitedust.png in Resources */,
+				C1564FC11A73F46100C09E3E /* greenableton.png in Resources */,
+				C1564FD71A73F46100C09E3E /* medtoggleswitch.png in Resources */,
+				C1564F9E1A73F46100C09E3E /* alphaminibrute.png in Resources */,
+				C1564FCB1A73F46100C09E3E /* hshandsmall56.png in Resources */,
+				C1564F981A73F46100C09E3E /* alphachickenhead3.png in Resources */,
+				C1564FE51A73F46100C09E3E /* rbstripgreen2.png in Resources */,
+				C1E48C741B4869D500A083F0 /* horizvuledoff.png in Resources */,
+				C1564FB31A73F46100C09E3E /* bigrubberbutton.png in Resources */,
+				C1564FF91A73F46100C09E3E /* smallrubberbutton.png in Resources */,
+				C1564FFE1A73F46100C09E3E /* sslgreen2.png in Resources */,
+				C1564FCA1A73F46100C09E3E /* hshandS700.png in Resources */,
+				C156500A1A73F46100C09E3E /* vsbackgroundtwo.png in Resources */,
+				C1564FEC1A73F46100C09E3E /* rbstripsilverbutton2.png in Resources */,
+				C156500B1A73F46100C09E3E /* vsbackshort56.png in Resources */,
+				C1564FB61A73F46100C09E3E /* blackplastic.png in Resources */,
+				C1564FEB1A73F46100C09E3E /* rbstripgreen8.png in Resources */,
+				C1564FDD1A73F46100C09E3E /* RackAFX.uidesc in Resources */,
+				C141BBF51B125EFF00C59940 /* knobvst.png in Resources */,
+				C1564FF51A73F46100C09E3E /* smalloberheimbutton.png in Resources */,
+				C1564FAA1A73F46100C09E3E /* ampknob.png in Resources */,
+				C1564FE21A73F46100C09E3E /* rbstripamber6.png in Resources */,
+				C1564FB81A73F46100C09E3E /* bluemetal.png in Resources */,
+				C1564FCD1A73F46100C09E3E /* knob2.png in Resources */,
+				C1564FDB1A73F46100C09E3E /* orangeamp.png in Resources */,
+				C15650041A73F46100C09E3E /* tinytoggleswitch.png in Resources */,
+				C1564F931A73F46100C09E3E /* alphablackgearknob1.png in Resources */,
+				C1E48C731B4869D500A083F0 /* horizvuledon.png in Resources */,
+				C15650101A73F46100C09E3E /* vstgui.uidesc in Resources */,
+				C1564FC91A73F46100C09E3E /* hshandle.png in Resources */,
+				C1564FE11A73F46100C09E3E /* rbstripamber5.png in Resources */,
+				C1564F951A73F46100C09E3E /* alphablackplastic.png in Resources */,
+				C15650111A73F46100C09E3E /* vuledoff.png in Resources */,
+				C1564FB11A73F46100C09E3E /* bigpowerswitch.png in Resources */,
+				C1564FEF1A73F46100C09E3E /* rbstripsilverbutton5.png in Resources */,
+				C1564FB71A73F46100C09E3E /* blueableton.png in Resources */,
+				C1564FE61A73F46100C09E3E /* rbstripgreen3.png in Resources */,
+				C1564FEA1A73F46100C09E3E /* rbstripgreen7.png in Resources */,
+				C1564FAB1A73F46100C09E3E /* analogvumeter.png in Resources */,
+				C1564FD31A73F46100C09E3E /* medoberheimbutton.png in Resources */,
+				C1564FBF1A73F46100C09E3E /* giantblackplastic.png in Resources */,
+				C1564FFB1A73F46100C09E3E /* sslblue.png in Resources */,
+				C1564FC81A73F46100C09E3E /* hsbackshort56.png in Resources */,
+				C1564FAC1A73F46100C09E3E /* assignbamber.png in Resources */,
+				C1564FE01A73F46100C09E3E /* rbstripamber4.png in Resources */,
+				C1564FA41A73F46100C09E3E /* alphasslgreen2.png in Resources */,
+				C1564FDC1A73F46100C09E3E /* prophet.png in Resources */,
+				C1564FA01A73F46100C09E3E /* alphaprophet.png in Resources */,
+				C1564FB01A73F46100C09E3E /* bigoberheimbutton.png in Resources */,
+				C1564FD01A73F46100C09E3E /* lightgreymetal.png in Resources */,
+				C1564FFC1A73F46100C09E3E /* sslblue2.png in Resources */,
+				C15650141A73F46100C09E3E /* vuledoninv.png in Resources */,
+				C1564F9D1A73F46100C09E3E /* alphamaschine.png in Resources */,
+				C1564FE81A73F46100C09E3E /* rbstripgreen5.png in Resources */,
+				C1564F9A1A73F46100C09E3E /* alphagreenableton.png in Resources */,
+				C1564FE31A73F46100C09E3E /* rbstripamber7.png in Resources */,
+				C1564FD81A73F46100C09E3E /* microoberheimbutton.png in Resources */,
+				C1564FD41A73F46100C09E3E /* medpowerswitch.png in Resources */,
+				C1564FAE1A73F46100C09E3E /* bigampknob.png in Resources */,
+				C1564FCF1A73F46100C09E3E /* knobm400.png in Resources */,
+				C1564FCE1A73F46100C09E3E /* knob303.png in Resources */,
+				C1564FEE1A73F46100C09E3E /* rbstripsilverbutton4.png in Resources */,
+				C1564FF41A73F46100C09E3E /* smallblackplastic.png in Resources */,
+				C1564FC01A73F46100C09E3E /* giantprophet.png in Resources */,
+				C1564FF71A73F46100C09E3E /* smallprohetbutton.png in Resources */,
+				C1564FB51A73F46100C09E3E /* blackgearknob.png in Resources */,
+				C1564FC21A73F46100C09E3E /* greenmetal.png in Resources */,
+				C1564FA31A73F46100C09E3E /* alphasslgreen.png in Resources */,
+				C1564FFD1A73F46100C09E3E /* sslgreen.png in Resources */,
+				C156500E1A73F46100C09E3E /* vshandsmall56.png in Resources */,
+				C1564FF21A73F46100C09E3E /* rbstripsilverbutton8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107B62A1ABF180B00FA1114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107B62B1ABF180B00FA1114 /* medrubberbutton.png in Resources */,
+				C107B62C1ABF180B00FA1114 /* rbstripsilverbutton3.png in Resources */,
+				C1E48C7A1B486A0400A083F0 /* horizvuledoninv.png in Resources */,
+				C1E48C791B486A0400A083F0 /* vertswitchfilters.png in Resources */,
+				C107B62D1ABF180B00FA1114 /* yellowmetal.png in Resources */,
+				C107B62E1ABF180B00FA1114 /* greymetal.png in Resources */,
+				C107B62F1ABF180B00FA1114 /* amberonoff.png in Resources */,
+				C107B6301ABF180B00FA1114 /* rbstripamber8.png in Resources */,
+				C107B6311ABF180B00FA1114 /* chickenhead.png in Resources */,
+				C107B6321ABF180B00FA1114 /* rbstripamber3.png in Resources */,
+				C107B6331ABF180B00FA1114 /* bigprohphetbutton.png in Resources */,
+				C107B6341ABF180B00FA1114 /* hsbackground.png in Resources */,
+				C107B6351ABF180B00FA1114 /* vshandle.png in Resources */,
+				C107B6361ABF180B00FA1114 /* vuledoffinv.png in Resources */,
+				C107B6371ABF180B00FA1114 /* alpham400.png in Resources */,
+				C107B6381ABF180B00FA1114 /* groupframe.png in Resources */,
+				C107B6391ABF180B00FA1114 /* maschine.png in Resources */,
+				C107B63A1ABF180B00FA1114 /* alphaorangeamp.png in Resources */,
+				C107B63B1ABF180B00FA1114 /* chickenhead3.png in Resources */,
+				C107B63C1ABF180B00FA1114 /* minibrute.png in Resources */,
+				C107B63D1ABF180B00FA1114 /* alphafxknob.png in Resources */,
+				C107B63E1ABF180B00FA1114 /* vsbackground.png in Resources */,
+				C107B63F1ABF180B00FA1114 /* tinyprophet.png in Resources */,
+				C107B6401ABF180B00FA1114 /* rbstripgreen4.png in Resources */,
+				C107B6411ABF180B00FA1114 /* whitedust.png in Resources */,
+				C107B6421ABF180B00FA1114 /* alphasslblue2.png in Resources */,
+				C107B6431ABF180B00FA1114 /* vshandleFU.png in Resources */,
+				C1E48C7B1B486A0400A083F0 /* horizvuledoffinv.png in Resources */,
+				C107B6441ABF180B00FA1114 /* sslred2.png in Resources */,
+				C107B6451ABF180B00FA1114 /* alphasslblue.png in Resources */,
+				C107B6461ABF180B00FA1114 /* alphasslred.png in Resources */,
+				C107B6471ABF180B00FA1114 /* smalltoggleswitch.png in Resources */,
+				C107B6481ABF180B00FA1114 /* vuledon.png in Resources */,
+				C107B6491ABF180B00FA1114 /* biganalogvumeter.png in Resources */,
+				C107B64A1ABF180B00FA1114 /* alphachickenhead.png in Resources */,
+				C107B64B1ABF180B00FA1114 /* sslyellow2.png in Resources */,
+				C107B64C1ABF180B00FA1114 /* vsbackgroundOLD.png in Resources */,
+				C107B64D1ABF180B00FA1114 /* rbstripsilverbutton6.png in Resources */,
+				C107B64E1ABF180B00FA1114 /* hsbackS700.png in Resources */,
+				C107B6501ABF180B00FA1114 /* alphasslyellow.png in Resources */,
+				C1E48C781B486A0400A083F0 /* horizswitchsynth.png in Resources */,
+				C107B6511ABF180B00FA1114 /* twossgreen.png in Resources */,
+				C107B6521ABF180B00FA1114 /* rbstripsilverbutton7.png in Resources */,
+				C107B6531ABF180B00FA1114 /* vsbackgroundshort.png in Resources */,
+				C107B6541ABF180B00FA1114 /* darkgreyvinyl.png in Resources */,
+				C107B6551ABF180B00FA1114 /* background.png in Resources */,
+				C107B6561ABF180B00FA1114 /* rbstripgreen6.png in Resources */,
+				C107B6571ABF180B00FA1114 /* alphachickenhead2.png in Resources */,
+				C107B6581ABF180B00FA1114 /* microtoggleswitch.png in Resources */,
+				C107B6591ABF180B00FA1114 /* knob.png in Resources */,
+				C107B65A1ABF180B00FA1114 /* bigtoggleswitch.png in Resources */,
+				C107B65B1ABF180B00FA1114 /* medprophetbutton.png in Resources */,
+				C107B65C1ABF180B00FA1114 /* fxknob.png in Resources */,
+				C107B65D1ABF180B00FA1114 /* alphaknob303.png in Resources */,
+				C107B65E1ABF180B00FA1114 /* smallanalogvumeter.png in Resources */,
+				C107B65F1ABF180B00FA1114 /* smallprophet.png in Resources */,
+				C107B6601ABF180B00FA1114 /* giantampknob.png in Resources */,
+				C107B6611ABF180B00FA1114 /* sslred.png in Resources */,
+				C107B6621ABF180B00FA1114 /* twossamber.png in Resources */,
+				C107B6631ABF180B00FA1114 /* medanalogvumeter.png in Resources */,
+				C107B6641ABF180B00FA1114 /* alphaampknob.png in Resources */,
+				C107B6651ABF180B00FA1114 /* alphasslred2.png in Resources */,
+				C107B6661ABF180B00FA1114 /* rbstripamber2.png in Resources */,
+				C107B6671ABF180B00FA1114 /* sslyellow.png in Resources */,
+				C107B6681ABF180B00FA1114 /* chickenhead2.png in Resources */,
+				C107B6691ABF180B00FA1114 /* alphablackgearknob2.png in Resources */,
+				C107B66A1ABF180B00FA1114 /* greyableton.png in Resources */,
+				C107B66B1ABF180B00FA1114 /* smallpowerswitch.png in Resources */,
+				C107B66C1ABF180B00FA1114 /* alphawhitedust.png in Resources */,
+				C107B66D1ABF180B00FA1114 /* greenableton.png in Resources */,
+				C107B66E1ABF180B00FA1114 /* medtoggleswitch.png in Resources */,
+				C107B66F1ABF180B00FA1114 /* alphaminibrute.png in Resources */,
+				C107B6701ABF180B00FA1114 /* hshandsmall56.png in Resources */,
+				C107B6711ABF180B00FA1114 /* alphachickenhead3.png in Resources */,
+				C107B6721ABF180B00FA1114 /* rbstripgreen2.png in Resources */,
+				C1E48C7D1B486A0400A083F0 /* horizvuledoff.png in Resources */,
+				C107B6731ABF180B00FA1114 /* bigrubberbutton.png in Resources */,
+				C107B6741ABF180B00FA1114 /* smallrubberbutton.png in Resources */,
+				C107B6751ABF180B00FA1114 /* sslgreen2.png in Resources */,
+				C107B6761ABF180B00FA1114 /* hshandS700.png in Resources */,
+				C107B6771ABF180B00FA1114 /* vsbackgroundtwo.png in Resources */,
+				C107B6781ABF180B00FA1114 /* rbstripsilverbutton2.png in Resources */,
+				C107B6791ABF180B00FA1114 /* vsbackshort56.png in Resources */,
+				C107B67A1ABF180B00FA1114 /* blackplastic.png in Resources */,
+				C107B67B1ABF180B00FA1114 /* rbstripgreen8.png in Resources */,
+				C107B67C1ABF180B00FA1114 /* RackAFX.uidesc in Resources */,
+				C141BBF51B125EFF00C59940 /* knobvst.png in Resources */,
+				C107B67D1ABF180B00FA1114 /* smalloberheimbutton.png in Resources */,
+				C107B67E1ABF180B00FA1114 /* ampknob.png in Resources */,
+				C107B67F1ABF180B00FA1114 /* rbstripamber6.png in Resources */,
+				C107B6801ABF180B00FA1114 /* bluemetal.png in Resources */,
+				C107B6811ABF180B00FA1114 /* knob2.png in Resources */,
+				C107B6821ABF180B00FA1114 /* orangeamp.png in Resources */,
+				C107B6831ABF180B00FA1114 /* tinytoggleswitch.png in Resources */,
+				C107B6841ABF180B00FA1114 /* alphablackgearknob1.png in Resources */,
+				C1E48C7C1B486A0400A083F0 /* horizvuledon.png in Resources */,
+				C107B6851ABF180B00FA1114 /* vstgui.uidesc in Resources */,
+				C107B6861ABF180B00FA1114 /* hshandle.png in Resources */,
+				C107B6871ABF180B00FA1114 /* rbstripamber5.png in Resources */,
+				C107B6881ABF180B00FA1114 /* alphablackplastic.png in Resources */,
+				C107B6891ABF180B00FA1114 /* vuledoff.png in Resources */,
+				C107B68A1ABF180B00FA1114 /* bigpowerswitch.png in Resources */,
+				C107B68B1ABF180B00FA1114 /* rbstripsilverbutton5.png in Resources */,
+				C107B68C1ABF180B00FA1114 /* blueableton.png in Resources */,
+				C107B68D1ABF180B00FA1114 /* rbstripgreen3.png in Resources */,
+				C107B68E1ABF180B00FA1114 /* rbstripgreen7.png in Resources */,
+				C107B68F1ABF180B00FA1114 /* analogvumeter.png in Resources */,
+				C107B6901ABF180B00FA1114 /* medoberheimbutton.png in Resources */,
+				C107B6911ABF180B00FA1114 /* giantblackplastic.png in Resources */,
+				C107B6921ABF180B00FA1114 /* sslblue.png in Resources */,
+				C107B6931ABF180B00FA1114 /* hsbackshort56.png in Resources */,
+				C107B6941ABF180B00FA1114 /* assignbamber.png in Resources */,
+				C107B6951ABF180B00FA1114 /* rbstripamber4.png in Resources */,
+				C107B6961ABF180B00FA1114 /* alphasslgreen2.png in Resources */,
+				C107B6971ABF180B00FA1114 /* prophet.png in Resources */,
+				C107B6981ABF180B00FA1114 /* alphaprophet.png in Resources */,
+				C107B6991ABF180B00FA1114 /* bigoberheimbutton.png in Resources */,
+				C107B69A1ABF180B00FA1114 /* lightgreymetal.png in Resources */,
+				C107B69B1ABF180B00FA1114 /* sslblue2.png in Resources */,
+				C107B69C1ABF180B00FA1114 /* vuledoninv.png in Resources */,
+				C107B69D1ABF180B00FA1114 /* alphamaschine.png in Resources */,
+				C107B69E1ABF180B00FA1114 /* rbstripgreen5.png in Resources */,
+				C107B69F1ABF180B00FA1114 /* alphagreenableton.png in Resources */,
+				C107B6A01ABF180B00FA1114 /* rbstripamber7.png in Resources */,
+				C107B6A11ABF180B00FA1114 /* microoberheimbutton.png in Resources */,
+				C107B6A21ABF180B00FA1114 /* medpowerswitch.png in Resources */,
+				C107B6A31ABF180B00FA1114 /* bigampknob.png in Resources */,
+				C107B6A41ABF180B00FA1114 /* knobm400.png in Resources */,
+				C107B6A51ABF180B00FA1114 /* knob303.png in Resources */,
+				C107B6A61ABF180B00FA1114 /* rbstripsilverbutton4.png in Resources */,
+				C107B6A71ABF180B00FA1114 /* smallblackplastic.png in Resources */,
+				C107B6A81ABF180B00FA1114 /* giantprophet.png in Resources */,
+				C107B6A91ABF180B00FA1114 /* smallprohetbutton.png in Resources */,
+				C107B6AA1ABF180B00FA1114 /* blackgearknob.png in Resources */,
+				C107B6AB1ABF180B00FA1114 /* greenmetal.png in Resources */,
+				C107B6AC1ABF180B00FA1114 /* alphasslgreen.png in Resources */,
+				C107B6AD1ABF180B00FA1114 /* sslgreen.png in Resources */,
+				C107B6AE1ABF180B00FA1114 /* vshandsmall56.png in Resources */,
+				C107B6AF1ABF180B00FA1114 /* rbstripsilverbutton8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F416981A09A9DDEA0033823E /* pluginview.cpp in Sources */,
+				F416982309A9DE020033823E /* vstaudioeffect.cpp in Sources */,
+				C1564EF01A73F0B900C09E3E /* PadControllerWP.cpp in Sources */,
+				F416982409A9DE020033823E /* vstcomponent.cpp in Sources */,
+				C19725BE1B11125E00798F61 /* LogParameter.cpp in Sources */,
+				F416982509A9DE020033823E /* vstcomponentbase.cpp in Sources */,
+				C1564EF11A73F0B900C09E3E /* PeakParameter.cpp in Sources */,
+				C1564F041A73F0ED00C09E3E /* RafxPluginFactory.cpp in Sources */,
+				F416983109A9DE3C0033823E /* ustring.cpp in Sources */,
+				C1564EF21A73F0B900C09E3E /* RackAFXMeterDetector.cpp in Sources */,
+				F416984209A9DE970033823E /* macmain.cpp in Sources */,
+				C19725C01B11125E00798F61 /* VoltOctaveParameter.cpp in Sources */,
+				C1564EF31A73F0B900C09E3E /* SliderWP.cpp in Sources */,
+				C1564F051A73F0ED00C09E3E /* SimpleHPF.cpp in Sources */,
+				C1564F0B1A73F10100C09E3E /* factory.cpp in Sources */,
+				C1564F0C1A73F10100C09E3E /* VSTProcessor.cpp in Sources */,
+				C1564EED1A73F0B900C09E3E /* KickButtonWP.cpp in Sources */,
+				F491A6F30D90189A00759819 /* vstbus.cpp in Sources */,
+				F491A6F40D90189A00759819 /* vstparameters.cpp in Sources */,
+				C1564EF51A73F0B900C09E3E /* VuMeterWP.cpp in Sources */,
+				F4AF682D17B136900083D7C1 /* vst3groupcontroller.cpp in Sources */,
+				F49D894C1074CACF003EFE21 /* pluginfactoryvst3.cpp in Sources */,
+				C1564EEE1A73F0B900C09E3E /* KnobWP.cpp in Sources */,
+				C14233671B7BA87500F0EBA5 /* RackAFXGUIFactory.cpp in Sources */,
+				C156501B1A73F7D600C09E3E /* vst2wrapper.sdk.cpp in Sources */,
+				5810B8E71083557600EBDCF2 /* vstinitiids.cpp in Sources */,
+				F40673CD12B0E60400BA0F64 /* vstgui_mac.mm in Sources */,
+				C1564EEF1A73F0B900C09E3E /* LCDController.cpp in Sources */,
+				C1564F031A73F0ED00C09E3E /* pluginobjects.cpp in Sources */,
+				C1564EF61A73F0B900C09E3E /* XYPadWP.cpp in Sources */,
+				F40673CE12B0E60400BA0F64 /* vstgui_uidescription_mac.mm in Sources */,
+				C1564EF41A73F0B900C09E3E /* VST3EditorWP.cpp in Sources */,
+				F40673D112B0E60F00BA0F64 /* vst3editor.cpp in Sources */,
+				F40673D612B0E66000BA0F64 /* vstguieditor.cpp in Sources */,
+				F42D5F6E17B01CF500B85FE8 /* vst3padcontroller.cpp in Sources */,
+				F44D721512C249AA00354F52 /* vstnoteexpressiontypes.cpp in Sources */,
+				C15650191A73F7C200C09E3E /* vstsinglecomponenteffect.cpp in Sources */,
+				C1564F021A73F0ED00C09E3E /* plugin.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C107B6B01ABF180B00FA1114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C107B6B11ABF180B00FA1114 /* pluginview.cpp in Sources */,
+				C107B6B21ABF180B00FA1114 /* vstaudioeffect.cpp in Sources */,
+				C107B6B31ABF180B00FA1114 /* PadControllerWP.cpp in Sources */,
+				C107B6B41ABF180B00FA1114 /* vstcomponent.cpp in Sources */,
+				C19725C21B1114BB00798F61 /* LogParameter.cpp in Sources */,
+				C107B6B51ABF180B00FA1114 /* vstcomponentbase.cpp in Sources */,
+				C107B6B61ABF180B00FA1114 /* PeakParameter.cpp in Sources */,
+				C107B6B71ABF180B00FA1114 /* RafxPluginFactory.cpp in Sources */,
+				C107B6B81ABF180B00FA1114 /* ustring.cpp in Sources */,
+				C107B6B91ABF180B00FA1114 /* RackAFXMeterDetector.cpp in Sources */,
+				C107B6BA1ABF180B00FA1114 /* macmain.cpp in Sources */,
+				C19725C41B1114C300798F61 /* VoltOctaveParameter.cpp in Sources */,
+				C107B6BB1ABF180B00FA1114 /* SliderWP.cpp in Sources */,
+				C107B6BC1ABF180B00FA1114 /* SimpleHPF.cpp in Sources */,
+				C107B6BD1ABF180B00FA1114 /* factory.cpp in Sources */,
+				C107B6BE1ABF180B00FA1114 /* VSTProcessor.cpp in Sources */,
+				C107B6BF1ABF180B00FA1114 /* KickButtonWP.cpp in Sources */,
+				C107B6C01ABF180B00FA1114 /* vstbus.cpp in Sources */,
+				C107B6C11ABF180B00FA1114 /* vstparameters.cpp in Sources */,
+				C107B6C21ABF180B00FA1114 /* VuMeterWP.cpp in Sources */,
+				C107B6C31ABF180B00FA1114 /* vst3groupcontroller.cpp in Sources */,
+				C107B6C41ABF180B00FA1114 /* pluginfactoryvst3.cpp in Sources */,
+				C107B6C51ABF180B00FA1114 /* KnobWP.cpp in Sources */,
+				C14233681B7BA87500F0EBA5 /* RackAFXGUIFactory.cpp in Sources */,
+				C107B6C61ABF180B00FA1114 /* vst2wrapper.sdk.cpp in Sources */,
+				C107B6C71ABF180B00FA1114 /* vstinitiids.cpp in Sources */,
+				C107B6C81ABF180B00FA1114 /* vstgui_mac.mm in Sources */,
+				C107B6C91ABF180B00FA1114 /* LCDController.cpp in Sources */,
+				C107B6CA1ABF180B00FA1114 /* pluginobjects.cpp in Sources */,
+				C107B6CB1ABF180B00FA1114 /* XYPadWP.cpp in Sources */,
+				C107B6CC1ABF180B00FA1114 /* vstgui_uidescription_mac.mm in Sources */,
+				C107B6CD1ABF180B00FA1114 /* VST3EditorWP.cpp in Sources */,
+				C107B6CE1ABF180B00FA1114 /* vst3editor.cpp in Sources */,
+				C107B6CF1ABF180B00FA1114 /* vstguieditor.cpp in Sources */,
+				C107B6D01ABF180B00FA1114 /* vst3padcontroller.cpp in Sources */,
+				C107B6D11ABF180B00FA1114 /* vstnoteexpressiontypes.cpp in Sources */,
+				C107B6D21ABF180B00FA1114 /* vstsinglecomponenteffect.cpp in Sources */,
+				C107B6D31ABF180B00FA1114 /* plugin.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C107B6131ABF180B00FA1114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = base;
+			targetProxy = C107B6141ABF180B00FA1114 /* PBXContainerItemProxy */;
+		};
+		F48C1EC4113683600091915C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = base;
+			targetProxy = F48C1EC3113683600091915C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FADC23408B4156C00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F449345F1018A37B00C2A94A /* debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					../../../../../../vstgui4/,
+					../../../../../../,
+				);
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I../../../../../";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/VST3/";
+				PRODUCT_NAME = CowleyTech HIGH-PASS-FILTER;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FADC23508B4156C00ABE55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44934601018A37B00C2A94A /* release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				HEADER_SEARCH_PATHS = (
+					../../../../../../vstgui4/,
+					../../../../../../,
+				);
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I../../../../../";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/VST3/";
+				PRODUCT_NAME = CowleyTech HIGH-PASS-FILTER;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FADC23808B4156C00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					../../../../../,
+					../../../../../vstgui4/,
+				);
+			};
+			name = Debug;
+		};
+		4FADC23908B4156C00ABE55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					../../../../../,
+					../../../../../vstgui4/,
+				);
+			};
+			name = Release;
+		};
+		C107B6DD1ABF180B00FA1114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F449345F1018A37B00C2A94A /* debug.xcconfig */;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					../../../../../../vstgui4/,
+					../../../../../../,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I../../../../../";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/VST/";
+				PRODUCT_NAME = CowleyTech HIGH-PASS-FILTER;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Debug;
+		};
+		C107B6DE1ABF180B00FA1114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44934601018A37B00C2A94A /* release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				HEADER_SEARCH_PATHS = (
+					../../../../../../vstgui4/,
+					../../../../../../,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I../../../../../";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/VST/";
+				PRODUCT_NAME = CowleyTech HIGH-PASS-FILTER;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FADC23308B4156C00ABE55E /* Build configuration list for PBXNativeTarget "CowleyTech HIGH-PASS-FILTER VST3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC23408B4156C00ABE55E /* Debug */,
+				4FADC23508B4156C00ABE55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "CowleyTech HIGH-PASS-FILTER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC23808B4156C00ABE55E /* Debug */,
+				4FADC23908B4156C00ABE55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C107B6DC1ABF180B00FA1114 /* Build configuration list for PBXNativeTarget "CowleyTech HIGH-PASS-FILTER VST2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C107B6DD1ABF180B00FA1114 /* Debug */,
+				C107B6DE1ABF180B00FA1114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
+
+
+
